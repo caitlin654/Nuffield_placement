@@ -1,0 +1,15 @@
+from microbit import *
+
+while True:
+    positionx = accelerometer.get_x()
+    positiony = accelerometer.get_y()
+    if positiony > 0 :
+        a = Image('00900:09990:90909:00900:00900:')
+        display.show(a)
+    elif positiony < 0 :
+        b = Image('00900:00900:90909:09990:00900:')
+        display.show(b)
+
+
+
+
