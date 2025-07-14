@@ -18,9 +18,9 @@
 
 - [x] **Mario** intstall [typora](https://typora.io/) on laptop.
 
-- [ ] **Caitlin** familiarise yourself with [markdown](https://www.markdownguide.org/cheat-sheet/).
+- [x] **Caitlin** familiarise yourself with [markdown](https://www.markdownguide.org/cheat-sheet/).
 
-- [ ] **Mario** install [git](https://gitforwindows.org/) (all the git bit is optional) and give Caitlin an overview.
+- [x] **Mario** install [git](https://gitforwindows.org/) (all the git bit is optional) and give Caitlin an overview.
 
   ```bash
   # Do only once
@@ -34,13 +34,13 @@
   git pull # Dealing with conflicts
   ```
 
-- [ ] **Caitlin** get an account on [GitHub](https://github.com).
+- [x] **Caitlin** get an account on [GitHub](https://github.com).
 
-- [ ] **Caitlin** add Mario to the GitHub repository.
+- [x] **Caitlin** add Mario to the GitHub repository.
 
 - [ ] **Mario** give Caitlin an overview of `git` interaction with GitHub.
 
-- [ ] **Caitlin** find out about [Gold](https://secondarylibrary.crestawards.org/student-guide-gold/62444084) [Crest Award](https://www.crestawards.org/). There is a [Getting started](https://secondarylibrary.crestawards.org/getting-started-guide-secondary/62140335) guide.
+- [x] **Caitlin** find out about [Gold](https://secondarylibrary.crestawards.org/student-guide-gold/62444084) [Crest Award](https://www.crestawards.org/). There is a [Getting started](https://secondarylibrary.crestawards.org/getting-started-guide-secondary/62140335) guide.
 
   * [Register](https://apply.crestawards.org/) (get a token for the fee from Aileen?)
   * Need to keep a diary during the [project](https://help.crestawards.org/portal/en/kb/articles/the-different-types-of-crest-project)
@@ -59,7 +59,7 @@
     * Identify the sustainable goals in your project and put this in your SL7 goals
   * Appraise
 
-- [ ] **Caitlin** install [Mu Editor](https://codewith.mu/en/download) - this is the editor you will use to write your Python applications.
+- [x] **Caitlin** install [Mu Editor](https://codewith.mu/en/download) - this is the editor you will use to write your Python applications.
 
 - [ ] **Caitlin** follow the Mu Editor [tutorials](https://codewith.mu/en/tutorials/1.2/).
 
