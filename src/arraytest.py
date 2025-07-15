@@ -1,13 +1,16 @@
 from microbit import *
 import time
 
+time.sleep(1)
 positions = []
-for loops in range(0, 10):
+for loops in range(0, 100):
+    position = ""
     position = accelerometer.get_values()
     positions.append(position)
-    time.sleep(1)
+    time.sleep(0.1)
 
-open('test.txt', 'w')
-for loops in range(0, len(positions)):
-   test.txt.write(positions[loops])
-
+with open('test.csv', 'w') as file:
+    for loops in range(0, len(positions)):
+        test1 = (str(positions[loops]))
+        test1 = (test1[1:len(test1)-1] + "\n")
+        file.write(str(test1))
