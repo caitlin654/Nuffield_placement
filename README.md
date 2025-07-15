@@ -11,12 +11,14 @@
 
 - [ ] read positions from file to python and change to graph
 
+- [ ] fix the unpacking error
+
 
 
 ## Project log
 
 
-### Day 3 - 16/7
+### Day 3 - 16/7 
 - [ ] try another graph(with the csv converted to excel)
 - [ ] try to change mu save location(add a shortcut?)
 - [ ] see what axis are most important

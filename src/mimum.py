@@ -1,3 +1,9 @@
+class reading():
+    def __init__(self, x, y, z):
+        self.x = x
+        self.y = y
+        self.z = z
+
 def readin():
     entirefile = ""
     readings = []
@@ -6,16 +12,22 @@ def readin():
     entirefile.close()
 
     for line in linesarray:
-        readings.append(line)
-        print(readings)
+        lineparts = line.split(",")
+        reading1 = reading(int(lineparts[0]), int(lineparts[1]), int(lineparts[2]))
+        readings.append(reading1)
     return readings
 
-def findminimum(readings):
-    minimum = readings[0]
-    maximum = readings[0]
+def findminmaxx(readings):
+    minimumx = readings[0].x
+    maximumx = readings[0].x
 
-    for loops in range(0 ,len(readings)):
-        if readings[loops] < minimum:
-            minimum =
+    #for loops in range(0 , len(readings)):
+     #   if readings[loops].x < minimumx:
+      #      minimumx = reading[loops].x
+       # elif readings[loops].x > maximumx:
+        #    maximumx = reading[loops].x
+
+    print(minimumx, maximumx)
+
 readings = readin()
-minimum, maximum = findminimum(readings)
+minimumx, maximumx = findminmaxx(readings)

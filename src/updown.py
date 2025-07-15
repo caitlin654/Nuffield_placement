@@ -3,6 +3,7 @@ from microbit import *
 while True:
     positionx = accelerometer.get_x()
     positiony = accelerometer.get_y()
+    positionz = accelerometer.get_z()
     if positionx > 0 :
         a = Image('00900:09990:90909:00900:00900:')
         display.show(a)
