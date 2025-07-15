@@ -1,10 +1,13 @@
 # Project Notes
+
+[toc]
+
 ## Steps
 - [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**
 
 
 - [ ] append position to array
-  ```pyth
+  ```python
   def getdata():
       positionsx = []
       loops = 0
@@ -19,9 +22,18 @@
 
 - [ ] read positions from file to python and change to graph
 
-
-
 ## Project log
+
+### Day 2 - 15/7
+
+- [ ] put data into files and bring into other program
+- [ ] make graph from accelerometer data(excel or mu?)
+- [ ] figure out how to have it function not connected to computer
+- [ ] how to write stuff into files?
+- [ ] check how accelerometer works
+
+- got the micro:bit to make a file
+
 ### Day 1 - 14/7
 
 - familiarization with software being used
@@ -34,9 +46,3 @@
 - put info into arrays and print arrays
 - got info in all three dimensions
 
-### Day 2 - 15/7
-
-- [ ] put data into files and bring into other program
-- [ ] make graph from accelerometer data
-- [ ] figure out how to have it function not connected to computer
-- [ ] how to write stuff into files?
