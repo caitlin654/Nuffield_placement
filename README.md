@@ -22,6 +22,7 @@
 - [ ] try another graph(with the csv converted to excel)
 - [ ] try to change mu save location(add a shortcut?)
 - [ ] see what axis are most important
+- [ ] try to see what the acceleration means(make decipherable graph)
 
 ### Day 2 - 15/7
 
@@ -44,5 +45,5 @@
 - wrote basic program to turn a small array into a graph
 - got data for multiple loops
 - put info into arrays and print arrays
-- got info in all three dimensions
+- got info in all three axis
 
