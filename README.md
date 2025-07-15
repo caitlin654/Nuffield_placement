@@ -17,18 +17,20 @@
 
 
 ### Day 3 - 16/7
-- [ ] make longer files with larger range of data, and check with maxmin to count steps
-- [ ] try another graph
+- [ ] try another graph(with the csv converted to excel)
 - [ ] try to change mu save location(add a shortcut?)
-- [ ] see what axis are most imprtant
+- [ ] see what axis are most important
+
 ### Day 2 - 15/7
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
-- [ ] set a minimum, and then have a step be counted every time that minimum is crossed <mark style = "background-color = blue;">minus minimum from all other data to find relatives</mark>
+- [ ] set a minimum, and then have a step be counted every time that minimum is crossed <mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark> /
 - got the micro:bit to make a file
 - wrote positions into the file **must be strs**
-- exported file to new programme and printed as a mu graph
+- exported file to new program and printed as a mu graph
 - made program to find min and max of each axis from the data file, find the midpoint and then 
+- converted csv files with the data to excel spreadsheet 
+- increased range of data being taken in, and tested for error caused by this
 
 ### Day 1 - 14/7
 
