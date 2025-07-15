@@ -5,18 +5,7 @@
 ## Steps
 - [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**
 
-
 - [ ] append position to array
-  ```python
-  def getdata():
-      positionsx = []
-      loops = 0
-  
-      while loops>20:
-          positionx = accelerometer.get_x()
-          positionsx.append(positionx)
-          loops = loops + 1
-  ```
 
 - [ ] print new position to file
 
@@ -35,11 +24,11 @@
 ### Day 2 - 15/7
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
-- [ ] set a minimum, and then have a step be counted every time that minimum is crossed (minus minimum from all other data to find relatives)
+- [ ] set a minimum, and then have a step be counted every time that minimum is crossed <mark style = "background-color = blue;">minus minimum from all other data to find relatives</mark>
 - got the micro:bit to make a file
 - wrote positions into the file **must be strs**
 - exported file to new programme and printed as a mu graph
-- made program to find min and max of each axis from the data file
+- made program to find min and max of each axis from the data file, find the midpoint and then 
 
 ### Day 1 - 14/7
 
