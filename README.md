@@ -26,17 +26,20 @@
 
 ## Project log
 
+
+### Day 3 - 16/7
+- [ ] make longer files with larger range of data, and check with maxmin to count steps
+- [ ] try another graph
+- [ ] try to change mu save location(add a shortcut?)
+- [ ] see what axis are most imprtant
 ### Day 2 - 15/7
 
-- [ ] figure out how to have it function not connected to computer
-- [ ] do i need all 3 axis?  
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
-- [ ] set a minimum, and then have a step be counted every time that minimum is crossed (minus minimum from all other data to find reletives)
-- [ ] how do i change the mu save location? or a solution to the having to copy it across every time.
-- [ ] get the graph to look normal
+- [ ] set a minimum, and then have a step be counted every time that minimum is crossed (minus minimum from all other data to find relatives)
 - got the micro:bit to make a file
 - wrote positions into the file **must be strs**
 - exported file to new programme and printed as a mu graph
+- made program to find min and max of each axis from the data file
 
 ### Day 1 - 14/7
 
