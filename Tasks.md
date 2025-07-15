@@ -38,7 +38,7 @@
 
 - [x] **Caitlin** add Mario to the GitHub repository.
 
-- [ ] **Mario** give Caitlin an overview of `git` interaction with GitHub.
+- [x] **Mario** give Caitlin an overview of `git` interaction with GitHub.
 
 - [x] **Caitlin** find out about [Gold](https://secondarylibrary.crestawards.org/student-guide-gold/62444084) [Crest Award](https://www.crestawards.org/). There is a [Getting started](https://secondarylibrary.crestawards.org/getting-started-guide-secondary/62140335) guide.
 
