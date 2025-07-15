@@ -28,10 +28,13 @@
   git config --global user.email ""
   git init # In a subdirectory, NEVER in the home directory
   # Repeate throughout
-  git add
-  git commit -m"Meesage"
-  git push
-  git pull # Dealing with conflicts
+  git status         # Check the status of the repo
+  git log            # See what changes have been made
+  git log --oneline  # Just check the commit messages
+  git add                 # register a file with/stage a file for commiting
+  git commit -m"Message"  # commit the file (create a checkpoint)
+  git push           # Push local commits to remote repo, if rejected need to pull first
+  git pull           # Pull changes from remote repo
   ```
 
 - [x] **Caitlin** get an account on [GitHub](https://github.com).
