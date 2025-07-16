@@ -21,4 +21,4 @@ with open('test.csv', 'w') as file:
         test1 = (test1[1:len(test1)-1] + "\n")
         file.write(str(test1))
 
-display.show(Image.ALL_ARROWS)
+display.show(Image.YES)

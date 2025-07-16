@@ -29,33 +29,29 @@ def findminmax(array):
             maximum = array[loops]
     return minimum, maximum
 
-def storeminmix(readingx, readingy, readingz):
-    minx, maxx = findminmax(readingx)
-    miny, maxy = findminmax(readingy)
-    minz, maxz = findminmax(readingz)
-    midx = (maxx + minx)/2
-    midy = (maxy + miny)/2
-    midz = (maxz + minz)/2
+def storeminmix(readingy):
+    min, max = findminmax(readingy)
+    #mid = (max + min)/2
 
-    return midx, midy, midz, maxy
+    return max
 
 def countstep(int, array):
     steps = 0
+    over = []
     for loops in range(0, len(array)):
-        if array[loops] > (int-100):
+        if array[loops] > (int-300):
             steps = steps + 1
+            over.append(array[loops])
 
-    return steps
+    return steps, over
 
-def countstep2(midx, midy, midz, readingx, readingy, readingz):
-    stepx = 0  # countstep(midx, readingx)
-    stepy = countstep(maxy, readingy)
-    stepz = 0  # countstep(midz, readingz)
+def countstep2(max, readingy):
+    step , over = countstep(max, readingy)
 
-    print(stepx, stepy, stepz)
-    return stepx, stepy, stepz
+    print(step, over)
+    return  step
 
 readingx, readingy, readingz = readin()
-midx, midy, midz, maxy = storeminmix(readingx, readingy, readingz)
-stepx, stepy, stepz = countstep2(midx, midy, midz, readingx, readingy, readingz)
+max = storeminmix(readingy)
+step = countstep2(max, readingy)
 

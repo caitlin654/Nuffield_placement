@@ -30,8 +30,9 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ### Day 4 - 14/7
 - [ ] finish functional requirements of minimumparallel.py 
 - [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit) +(see what would need to be done to use DST)
-- [ ] annotate accelorometer graph(walking one)(see example in imgs)
-- [ ] try to find out how to increase range of microbit to prevent data loss
+- [ ] annotate accelerometer graph(walking one)(see example in imgs)
+- [ ] make plan for how to get distance(using total acceleration or max?)
+- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)
 
 
 
@@ -57,7 +58,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 
 - got the micro:bit to make a file
-- wrote positions into the file **must be strs**
+- wrote positions into the file **must be strs** 
 - exported file to new program and printed as a mu graph
 - made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didnt work, cos midpoints were used)
 - converted csv files with the data to excel spreadsheet 
