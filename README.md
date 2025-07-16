@@ -11,9 +11,9 @@
 
 - [ ] read positions from file to python and change to graph
 
-- [x] fix the unpacking error
+  
 
-![acceleration graphs](./image-20250716101247310.png)
+![acceleration graphs](./imgs/acceleratiobn.png)
 
   
 
