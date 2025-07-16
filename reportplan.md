@@ -3,6 +3,8 @@
 
 ## Requirements
 
+This bit is not part of the report.
+
 * use normal margins and 11-point Arial/Calibri font.
 * File names should include your name and a shortened version of your project title.
 
@@ -12,9 +14,11 @@ Think of this like a brief summary of your research so in a few sentences descri
 
 ---
 
+**Start adding own content below the line. Start with bullet points to build an outline and a narrative arc. State what else you need, graphs, etc. Eventually remove the guidance.**
+
 ## Introduction 
 
-(including aim(s))
+Including aim(s).
 
 This should be a summary of the information found when carrying out research into the topic in addition to clearly setting out what is trying to be achieved with this investigation. This section should include everything that the reader needs to know in order to understand the investigation. Include references to other work from a variety of sources that your report is building on or links to.
 
