@@ -13,6 +13,8 @@
 
 - [ ] use graphs to measure DST?
 
+- [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)
+
   
 
 ![walking acceleration graphs](./imgs/walking1graphs.png) 
@@ -31,7 +33,7 @@
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
-- test of axis' to see which ones showed the movement the best(y axis isn't needed to show walking, x axis is the most important)  - program to visualize z and x axis changes
+- test of axis' to see which ones showed the movement the best(shown in graphs)  - program to visualize z and x axis changes
 - functional requirements of minimumparallel.py
 - read papers on accelerometer graphs 
 
