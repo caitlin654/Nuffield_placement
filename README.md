@@ -13,7 +13,7 @@
 
   
 
-![acceleration graphs](./imgs/acceleratiobn.png)
+![walking acceleration graphs](./imgs/walking1graphs.png) 
 
   
 
@@ -28,14 +28,13 @@
 - [ ] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)
 
 ### Day 3 - 16/7 
-- [x] try another graph(with the csv converted to excel)
-- [x] see what axis are most important (don't really need y?)(z axis most important)
 - [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit)
-- [ ] do actual walking test to get graphs for that
-- [ ] z and x axis acceleration visualization program
 
-- made graphs from data sets produced when the micro:bit was shaken, stationary and 
-- test of axis' to see which ones showed the movement the best(y axis isnt needed to show walking, z axis is the most important)
+- [ ] do actual walking test to get graphs for that
+
+- made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
+
+- test of axis' to see which ones showed the movement the best(y axis isn't needed to show walking, x axis is the most important)  - program to visualize z and x axis changes
 
 ### Day 2 - 15/7
 
