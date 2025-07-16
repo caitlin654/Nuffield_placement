@@ -11,18 +11,25 @@
 
 - [ ] read positions from file to python and change to graph
 
-- [ ] fix the unpacking error
+- [x] fix the unpacking error
 
+![acceleration graphs](./image-20250716101247310.png)
+
+  
 
 
 ## Project log
 
-
+### Day 4 - 14/7
+- [ ] 
 ### Day 3 - 16/7 
-- [ ] try another graph(with the csv converted to excel)
+- [x] try another graph(with the csv converted to excel)
 - [ ] try to change mu save location(add a shortcut?)
 - [ ] see what axis are most important
-- [ ] try to see what the acceleration means(make decipherable graph)
+- [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit)
+- [ ] do actual walking test to get graphs for that
+- [ ] functional requirements of minimumparallel.py 
+- [ ] finish plans for minimum parallel from yesterday
 
 ### Day 2 - 15/7
 

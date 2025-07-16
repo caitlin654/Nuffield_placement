@@ -54,6 +54,7 @@ def countstep2(midx, midy, midz, readingx, readingy, readingz):
     stepz = countstep(midz, readingz)
 
     print(stepx, stepy, stepz)
+    return stepx, stepy, stepz
 
 readingx, readingy, readingz = readin()
 midx, midy, midz = storeminmix(readingx, readingy, readingz)

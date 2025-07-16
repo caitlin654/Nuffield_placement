@@ -2,6 +2,10 @@ from microbit import *
 import time
 
 time.sleep(1)
+display.show(Image.BUTTERFLY)
+time.sleep(2)
+display.clear()
+
 positions = []
 for loops in range(0, 100):
     position = ""
@@ -14,3 +18,5 @@ with open('test.csv', 'w') as file:
         test1 = (str(positions[loops]))
         test1 = (test1[1:len(test1)-1] + "\n")
         file.write(str(test1))
+
+display.show(Image.ALL_ARROWS)
