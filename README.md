@@ -28,11 +28,11 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 4 - 14/7
+- [ ] do actual walking tests with more data, get graphs and count steps
 - [ ] annotate accelerometer graph(walking one)(see example in imgs)/try to see what the acceleration means(make decipherable graph)
 - [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)
-- [ ] do actual walking tests with more data, get graphs and count steps
-- [ ] see if there is any better way than manually changing the range int every time
+- [ ] see if there is any better way than manually changing the range int every time(*have it minus itself divided by something, would mean its relative to the integer, but if data has small range that the set used to get divisor it wouldn't work, would cause errors if int was negative(and a max, would solve a problem if it was a min, due to the double negative*)
 - [ ] start plan for report
 - [ ] have a look at stem leader stuff
 
@@ -50,7 +50,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 - did mock walking(swinging arm ) tests with larger arrays, made graphs and counted steps(graph peaks) with minimumparallel.py 
 
-- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used** )
+- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used , and changed whether int is being added to or taken away from**)
 
   
 
