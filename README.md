@@ -42,7 +42,10 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
 
-- [ ] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)(with walking graphs average peaks can be found much easier, so this will work better)
+- [x] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)(with walking graphs average peaks can be found much easier, so this will work better)
+- [ ] clean up refs
+- [ ] do walking tests with more data, get graphs and count steps
+- [ ] think how reliable maxparalel is(range of ints)
 
 ### Day 2 - 15/7
 
