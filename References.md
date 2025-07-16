@@ -6,4 +6,7 @@
 
 - https://www.analog.com/en/resources/analog-dialogue/articles/enhancing-pedometers-using-single-accelerometer.html
 
+> Given the same angles, the vertical displacement would be greater or smaller for taller or shorter people, thus accounting for differences in leg length.
+  > Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv higher physics :pensive: )
+
 > analog.com seems to be good for research, as they are focused on small simple pedometers

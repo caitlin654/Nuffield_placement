@@ -13,6 +13,9 @@
 
 - [ ] use graphs to measure DST?
 
+> Given the same angles, the vertical displacement would be greater or smaller for taller or shorter people, thus accounting for differences in leg length.
+Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv higher physics :( )
+
 - [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)
 
   
