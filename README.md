@@ -11,6 +11,8 @@
 
 - [x] read positions from file to python and change to graph
 
+- [ ] use graphs to measure DST?
+
   
 
 ![walking acceleration graphs](./imgs/walking1graphs.png) 
@@ -21,20 +23,21 @@
 ## Project log
 
 ### Day 4 - 14/7
-- [ ] functional requirements of minimumparallel.py 
+- [ ] finish functional requirements of minimumparallel.py 
+- [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit) +(see what would need to be done to use DST)
+- [ ] annotate accelorometer graph(walking one)
 
-- [ ] finish plans for minimum parallel 
-> With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
-- [ ] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)
+
 
 ### Day 3 - 16/7 
-- [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit)
-
-- [ ] do actual walking test to get graphs for that
-
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
-
 - test of axis' to see which ones showed the movement the best(y axis isn't needed to show walking, x axis is the most important)  - program to visualize z and x axis changes
+- functional requirements of minimumparallel.py
+- read papers on accelerometer graphs 
+
+> With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
+
+- [ ] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)(with walking graphs average peaks can be found much easier, so this will work better)
 
 ### Day 2 - 15/7
 
