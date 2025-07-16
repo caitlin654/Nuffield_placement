@@ -65,9 +65,9 @@
 
 - [x] **Caitlin** install [Mu Editor](https://codewith.mu/en/download) - this is the editor you will use to write your Python applications.
 
-- [ ] **Caitlin** follow the Mu Editor [tutorials](https://codewith.mu/en/tutorials/1.2/).
+- [x] **Caitlin** follow the Mu Editor [tutorials](https://codewith.mu/en/tutorials/1.2/).
 
-- [ ] **Caitlin** write some code to access the accelerometers in a microbit, look at the data, plot the data.
+- [x] **Caitlin** write some code to access the accelerometers in a microbit, look at the data, plot the data.
 
 - [ ] **Caitlin** once we understand the data use the [radio module](https://microbit-micropython.readthedocs.io/en/v1.0.1/radio.html) to communicate the data back to the laptop.
 

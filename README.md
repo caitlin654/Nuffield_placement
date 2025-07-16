@@ -34,6 +34,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 - [ ] do actual walking tests with more data, get graphs and count steps
 - [ ] see if there is any better way than manually changing the range int every time
 - [ ] start plan for report
+- [ ] have a look at stem leader stuff
 
 
 
