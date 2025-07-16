@@ -1,13 +1,15 @@
 from microbit import *
 import time
 
+#microbit.accelerometer.set_range(4)
+
 time.sleep(1)
-display.show(Image.BUTTERFLY)
+display.show(Image.HEART)
 time.sleep(2)
 display.clear()
 
 positions = []
-for loops in range(0, 250):
+for loops in range(0, 100):
     position = ""
     position = accelerometer.get_values()
     positions.append(position)

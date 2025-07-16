@@ -3,7 +3,7 @@
 [toc]
 
 ## Steps
-- [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**
+- [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**(micro:bits only measure up to 2000mg so peaks are cut off)
 
 - [x] append position to array
 
@@ -31,6 +31,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 - [ ] finish functional requirements of minimumparallel.py 
 - [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit) +(see what would need to be done to use DST)
 - [ ] annotate accelorometer graph(walking one)(see example in imgs)
+- [ ] try to find out how to increase range of microbit to prevent data loss
 
 
 
@@ -49,6 +50,8 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 - [ ] do walking tests with more data, get graphs and count steps
 
 - [ ] think how reliable maxparalel is(range of ints)
+
+- [ ] how does micro;bit orientation effect results
 
 ### Day 2 - 15/7
 

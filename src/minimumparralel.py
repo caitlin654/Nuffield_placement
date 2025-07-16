@@ -37,21 +37,20 @@ def storeminmix(readingx, readingy, readingz):
     midy = (maxy + miny)/2
     midz = (maxz + minz)/2
 
-
     return midx, midy, midz, maxy
 
 def countstep(int, array):
     steps = 0
-    for loops in range(0,len(array)):
-       if array[loops] >(int-100):
+    for loops in range(0, len(array)):
+        if array[loops] > (int-100):
             steps = steps + 1
 
     return steps
 
 def countstep2(midx, midy, midz, readingx, readingy, readingz):
-    stepx = 0 # countstep(midx, readingx)
+    stepx = 0  # countstep(midx, readingx)
     stepy = countstep(maxy, readingy)
-    stepz = 0 #countstep(midz, readingz)
+    stepz = 0  # countstep(midz, readingz)
 
     print(stepx, stepy, stepz)
     return stepx, stepy, stepz
