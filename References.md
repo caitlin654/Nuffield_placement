@@ -12,6 +12,8 @@
 
 > less practical, and more on the applications of step coutning, and the different methods
 
+> less practical, and more on the applications of step coutning, and the different methods
+
 - https://www.analog.com/en/resources/analog-dialogue/articles/pedometer-design-3-axis-digital-acceler.html
 
 - https://www.analog.com/en/resources/analog-dialogue/articles/enhancing-pedometers-using-single-accelerometer.html
@@ -21,6 +23,7 @@
   > Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv Higher physics :pensive: )
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 > analog.com seems to be good for research, as they are focused on small simple pedometers
 
 ## Videos
@@ -28,6 +31,9 @@
 * [Pedometer algorithms explained](https://www.youtube.com/watch?v=cpwrwPTqMac)
 * [Basic step counting overivew](https://www.youtube.com/watch?v=XSZBOCpYK7k)
 * [How to create walking step counter App using Accelerometer sensor and Shared Preference in Android?](https://www.youtube.com/watch?v=o-qpVefrfVA)
+=======
+> analog.com seems to be good for research, as they are focused on small simple pedometers and give basic explanations of functions to get data and interpret it 
+>>>>>>> Stashed changes
 =======
 > analog.com seems to be good for research, as they are focused on small simple pedometers and give basic explanations of functions to get data and interpret it 
 >>>>>>> Stashed changes
