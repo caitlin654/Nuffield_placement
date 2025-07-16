@@ -29,9 +29,10 @@ def findminmax(array):
             maximum = array[loops]
     return minimum, maximum
 
-def storeminmix(readingy):
-    min, max = findminmax(readingy)
+def storeminmix(readingx):
+    min, max = findminmax(readingx)
     #mid = (max + min)/2
+    print(max)
 
     return max
 
@@ -39,19 +40,19 @@ def countstep(int, array):
     steps = 0
     over = []
     for loops in range(0, len(array)):
-        if array[loops] > (int-300):
+        if array[loops] > (int-400):
             steps = steps + 1
             over.append(array[loops])
 
     return steps, over
 
-def countstep2(max, readingy):
-    step , over = countstep(max, readingy)
+def countstep2(max, readingx):
+    step , over = countstep(max, readingx)
 
     print(step, over)
     return  step
 
 readingx, readingy, readingz = readin()
-max = storeminmix(readingy)
-step = countstep2(max, readingy)
+max = storeminmix(readingx)
+step = countstep2(max, readingx)
 

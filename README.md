@@ -3,7 +3,7 @@
 [toc]
 
 ## Steps
-- [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**(micro:bits only measure up to 2000mg so peaks are cut off)
+- [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**(*micro:bits only measure up to 2000mg so peaks are cut off*)
 
 - [x] append position to array
 
@@ -28,31 +28,30 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 4 - 14/7
-- [ ] finish functional requirements of minimumparallel.py 
-- [ ] try to see what the acceleration means(make decipherable graph)+(diagram of axis on the micro:bit) +(see what would need to be done to use DST)
-- [ ] annotate accelerometer graph(walking one)(see example in imgs)
-- [ ] make plan for how to get distance(using total acceleration or max?)
+- [ ] annotate accelerometer graph(walking one)(see example in imgs)/try to see what the acceleration means(make decipherable graph)
+- [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)
+- [ ] do actual walking tests with more data, get graphs and count steps
+- [ ] see if there is any better way than manually changing the range int every time
+- [ ] start plan for report
 
 
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
 - test of axis' to see which ones showed the movement the best(shown in graphs)  - program to visualize z and x axis changes
-- started functional requirements of minimumparallel.py
+- wrote functional requirements of minimumparallel.py, and defined the program 
 - read papers on accelerometer graphs (see References.md )
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
 
-- updated max and min finding program to count every time a reading is within range of the max, and used this to count the steps (with walking graphs average peaks can be found much easier, so this will work better) ( could minus minimum from all other data to find relatives ? dk if its really needed but would make graph interpretation easier later on)
+- updated max and min finding program to count every time a reading is within range of the max, and used this to count the steps (with walking graphs average peaks can be found much easier, so this will work better) ( *could minus minimum from all other data to find relatives*   ? dk if its really needed but would make graph interpretation easier later on)
+
+- did mock walking(swinging arm ) tests with larger arrays, made graphs and counted steps(graph peaks) with minimumparallel.py 
+
+- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used** )
 
   
-
-- [ ] do walking tests with more data, get graphs and count steps
-
-- [ ] think how reliable maxparalel is(range of ints)
-
-- [ ] how does micro;bit orientation effect results
 
 ### Day 2 - 15/7
 
