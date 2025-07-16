@@ -37,14 +37,17 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
 - test of axis' to see which ones showed the movement the best(shown in graphs)  - program to visualize z and x axis changes
-- functional requirements of minimumparallel.py
-- read papers on accelerometer graphs 
+- started functional requirements of minimumparallel.py
+- read papers on accelerometer graphs (see References.md )
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
 
-- [x] set a minimum, and then have a step be counted every time that minimum is **crossed** (<mark style = "background-color :  lightblue;">minus minimum from all other data to find relatives</mark>)(with walking graphs average peaks can be found much easier, so this will work better)
-- [ ] clean up refs
+- updated max and min finding program to count every time a reading is within range of the max, and used this to count the steps (with walking graphs average peaks can be found much easier, so this will work better) ( could minus minimum from all other data to find relatives ? dk if its really needed but would make graph interpretation easier later on)
+
+  
+
 - [ ] do walking tests with more data, get graphs and count steps
+
 - [ ] think how reliable maxparalel is(range of ints)
 
 ### Day 2 - 15/7
@@ -53,7 +56,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 - got the micro:bit to make a file
 - wrote positions into the file **must be strs**
 - exported file to new program and printed as a mu graph
-- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met
+- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didnt work, cos midpoints were used)
 - converted csv files with the data to excel spreadsheet 
 - increased range of data being taken in, and tested for error caused by this
 
