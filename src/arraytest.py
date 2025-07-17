@@ -5,7 +5,7 @@ import time
 
 time.sleep(1)
 display.show(Image.HEART)
-time.sleep(2)
+time.sleep(4)
 display.clear()
 
 positions = []

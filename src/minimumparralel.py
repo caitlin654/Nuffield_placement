@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    entirefile = open("360_904_-48.txt", "r")
+    entirefile = open("test.csv", "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
