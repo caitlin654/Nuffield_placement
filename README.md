@@ -11,12 +11,26 @@
 
 - [x] read positions from file to python and change to graph
 
-- [ ] use graphs to measure SVT?
+- [x] use data to measure SVT?
 
-> Given the same angles, the vertical displacement would be greater or smaller for taller or shorter people, thus accounting for differences in leg length.
-Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv higher physics :pensive: )
+  ```python
+  def getdisplacement(readingy):
+      vel = 0
+      dis = 0
+      time = 0.1
+      
+      for loops in range(0, len(readingy)):
+          acc = readingy[loops]/1000
+          vel = vel + (acc)*time
+          dis = dis + (vel*time) +(0.5 * acc *(time**2))
+          
+      dis = round(dis, 1)
+  	return dis
+  ```
 
-- [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)
+  
+
+- [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)(**seems like logo needs to be up for displacement to be positive**) 
 
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg) 
   
@@ -50,8 +64,8 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
   *didn't work, have code that should work but doesn't*
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
 - revised the use of the integration of acceleration to find velocity and displacement 
-- wrote initial pseudocode for displacement program **total acceleration** 
-- wrote initial program to find displacement, *-76823750.0 was  displacement i got first run, somethings happening with the negatives cos of the position of the x-axis on the test i used* 
+- wrote initial pseudocode for displacement program **total acceleration?** 
+- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount*
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
