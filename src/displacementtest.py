@@ -3,13 +3,13 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/360_904_-48.txt'
+    file_path = r'C:\Users/Summer School - 1/mu_code/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
     for line in linesarray:
-        lineparts = line.split("	")
+        lineparts = line.split(",")
         readingx1 = int(lineparts[0])
         readingx.append(readingx1)
         readingy1 = int(lineparts[1])
@@ -24,19 +24,25 @@ def getaccel(readingy):
         totalaccel = (totalaccel + (readingy[loops]/1000))
     return totalaccel
 
-def getdisplacement(totalaccel):
-    time = 25
-    initial_velocity = 0
 
-    # velocity = initial_velocity + (totalaccel * time)
-    displace = ((initial_velocity*time) + (0.5 * totalaccel * (time**2)))/2
-    displace = round(displace,1)
+def getdisplacement(readingy):
+    vel = 0
+    dis = 0
+    time = 0.1
 
-    print(displace)
+    for loops in range(0, len(readingy)):
+        acc = readingy[loops]/1000
+        vel = vel + (acc)*time
+        dis = dis + (vel*time) +(0.5 * acc *(time**2))
 
-    return displace
+    dis = round(dis, 1)
+
+    print(dis)
+    return dis,vel
+
 
 readingx, readingy, readingz = readin()
 totalaccel = getaccel(readingy)
-displace = getdisplacement(totalaccel)
+dis, vel = getdisplacement(readingy)
+
 
