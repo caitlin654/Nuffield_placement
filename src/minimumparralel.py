@@ -3,13 +3,13 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/test.csv'
+    file_path = r'../data/360_904_-48.txt'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
     for line in linesarray:
-        lineparts = line.split(",")
+        lineparts = line.split("	")
         readingx1 = int(lineparts[0])
         readingx.append(readingx1)
         readingy1 = int(lineparts[1])
@@ -35,25 +35,21 @@ def storeminmix(readingx):
     # mid = (max + min)/2
     print(min)
 
-    return min
+    return max
 
-def countstep(int, array):
+def countstep(max, readingy):
     steps = 0
     over = []
-    for loops in range(0, len(array)):
-        if array[loops] < (int +(700)):
+    for loops in range(0, len(readingy)):
+        if readingy[loops] > (max - 300):
             steps = steps + 1
-            over.append(array[loops])
+            over.append(readingy[loops])
+    print(steps, over)
 
-    return steps, over
+    return over
 
-def countstep2(min, readingx):
-    step , over = countstep(min, readingx)
-
-    print(step, over)
-    return step
 
 readingx, readingy, readingz = readin()
-min = storeminmix(readingx)
-step = countstep2(min, readingx)
+max = storeminmix(readingy)
+over = countstep(max, readingy)
 
