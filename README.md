@@ -38,12 +38,11 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 5 - 18/7
-- [  ] 
+- [ ] attempt implementation of DST program
+- [ ] collect more data - see what variables affect quality (try leg)
 
 ### Day 4 - 17/7
-- [ ] annotate accelerometer graph(walking one)(see example in imgs)/try to see what the acceleration means(make decipherable graph)
-
-- [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
+- annotated accelerometer graph
 
 - Attempted to increase the range of values measured by the accelerometer 
   *didn't work, have code that should work but doesn't*
@@ -53,6 +52,10 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 
 - [ ] start plan for report
+
+- [ ] try change graphs
+
+- [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
 
 - [ ] have a look at stem leader stuff
 

@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'C:\Users\Summer School - 1\project\data\test.csv'
+    file_path = r'../data/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -33,27 +33,27 @@ def findminmax(array):
 def storeminmix(readingx):
     min, max = findminmax(readingx)
     # mid = (max + min)/2
-    print(max)
+    print(min)
 
-    return max
+    return min
 
 def countstep(int, array):
     steps = 0
     over = []
     for loops in range(0, len(array)):
-        if array[loops] > (int-296):
+        if array[loops] < (int +(700)):
             steps = steps + 1
             over.append(array[loops])
 
     return steps, over
 
-def countstep2(max, readingx):
-    step , over = countstep(max, readingx)
+def countstep2(min, readingx):
+    step , over = countstep(min, readingx)
 
     print(step, over)
     return step
 
 readingx, readingy, readingz = readin()
-max = storeminmix(readingx)
-step = countstep2(max, readingx)
+min = storeminmix(readingx)
+step = countstep2(min, readingx)
 
