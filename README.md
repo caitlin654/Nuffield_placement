@@ -54,9 +54,8 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 - wrote initial pseudocode for displacement program **total acceleration** 
 
+- wrote initial program to find displacement, *-76823750.0 was  displacement i got first run, somethings happening with the negatives cos of the position of the x-axis on the test i used (will also need to be divided by two due to the swing*   
 
-
-- [ ] attempt implementation of SVT program
 - [ ] start plan for report
 
 ### Day 3 - 16/7 
