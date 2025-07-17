@@ -11,7 +11,7 @@
 
 - [x] read positions from file to python and change to graph
 
-- [ ] use graphs to measure DVT?
+- [ ] use graphs to measure SVT?
 
 > Given the same angles, the vertical displacement would be greater or smaller for taller or shorter people, thus accounting for differences in leg length.
 Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv higher physics :pensive: )
@@ -38,8 +38,9 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 5 - 18/7
-- [ ] attempt implementation of DVT program
 - [ ] collect more data - see what variables affect quality (try leg)
+- [ ] try change graphs (add time, labels, make them understandable)
+- [ ] have a look at stem leader stuff
 
 ### Day 4 - 17/7
 - annotated accelerometer graph
@@ -47,21 +48,16 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 - Attempted to increase the range of values measured by the accelerometer 
   *didn't work, have code that should work but doesn't*
 
-- collected futher data with walks, checked accuracy of mimparallel with these programs 
+- collected further data with walks, checked accuracy of minparallel.py with these programs 
 
-- revised the use of the inegration of accelration o find veloxity and displacement 
+- revised the use of the integration of acceleration to find velocity and displacement 
+
+- wrote initial pseudocode for displacement program **total acceleration** 
 
 
 
+- [ ] attempt implementation of SVT program
 - [ ] start plan for report
-
-- [ ] try change graphs
-
-- [ ] make plan for how to get distance(and by extension DVT)(using total acceleration or max?)
-
-- [ ] have a look at stem leader stuff
-
-
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
