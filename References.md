@@ -24,3 +24,6 @@
 * [Basic step counting overivew](https://www.youtube.com/watch?v=XSZBOCpYK7k)
 * [How to create walking step counter App using Accelerometer sensor and Shared Preference in Android?](https://www.youtube.com/watch?v=o-qpVefrfVA)
 
+## Other
+https://makecode.microbit.org/reference/input/set-accelerometer-range
+should be ab,e to change the accelerometer range but it doesn't
