@@ -2,7 +2,7 @@
 
 [toc]
 
-## Steps
+## Steps/Things to look at
 - [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**(*micro:bits only measure up to 2000mg so peaks are cut off*)
 
 - [x] append position to array
@@ -11,7 +11,7 @@
 
 - [x] read positions from file to python and change to graph
 
-- [ ] use graphs to measure DST?
+- [ ] use graphs to measure DVT?
 
 > Given the same angles, the vertical displacement would be greater or smaller for taller or shorter people, thus accounting for differences in leg length.
 Unfortunately, the accelerometer measures changes in acceleration rather than displacement. The acceleration must be converted to distance before it can be used. In the AN-602 setup, limited computing power required that a simple formula be used to approximate the double integral needed to convert acceleration into distance. (Adv higher physics :pensive: )
@@ -38,7 +38,7 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 5 - 18/7
-- [ ] attempt implementation of DST program
+- [ ] attempt implementation of DVT program
 - [ ] collect more data - see what variables affect quality (try leg)
 
 ### Day 4 - 17/7
@@ -49,13 +49,15 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 - collected futher data with walks, checked accuracy of mimparallel with these programs 
 
+- revised the use of the inegration of accelration o find veloxity and displacement 
+
 
 
 - [ ] start plan for report
 
 - [ ] try change graphs
 
-- [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
+- [ ] make plan for how to get distance(and by extension DVT)(using total acceleration or max?)
 
 - [ ] have a look at stem leader stuff
 
