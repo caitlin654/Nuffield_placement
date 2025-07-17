@@ -3,7 +3,7 @@
 [toc]
 
 ## Steps/Things to look at
-- [ ] get position from accelerometer every time period  **Ensure they're not just random numbers**(*micro:bits only measure up to 2000mg so peaks are cut off*)
+- [x] get position from accelerometer every time period 
 
 - [x] append position to array
 
@@ -30,7 +30,7 @@
 
   
 
-- [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)(**seems like logo needs to be up for displacement to be positive**) 
+- [ ] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**)  *maybe test more with the 4 directions* 
 
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg) 
   
@@ -51,9 +51,14 @@
 
 ## Project log
 
+### Day 6 - 21/7
+
 ### Day 5 - 18/7
-- [ ] collect more data - see what variables affect quality (try leg) 
+#### AM
+- [ ] collect more data - see what variables affect quality of data (try leg) 
+- [ ] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**)  *maybe test more with the 4 directions*
 - [ ] try change graphs (add time, labels, make them understandable)
+#### PM
 - [ ] have a look at stem leader stuff
 - [ ] start plan for report
 
@@ -65,7 +70,7 @@
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
 - revised the use of the integration of acceleration to find velocity and displacement 
 - wrote initial pseudocode for displacement program **total acceleration?** 
-- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount*
+- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount* 
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
