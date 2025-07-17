@@ -38,25 +38,20 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 ## Project log
 
 ### Day 5 - 18/7
-- [ ] collect more data - see what variables affect quality (try leg)
+- [ ] collect more data - see what variables affect quality (try leg) 
 - [ ] try change graphs (add time, labels, make them understandable)
 - [ ] have a look at stem leader stuff
+- [ ] start plan for report
+
 
 ### Day 4 - 17/7
 - annotated accelerometer graph
-
 - Attempted to increase the range of values measured by the accelerometer 
   *didn't work, have code that should work but doesn't*
-
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
-
 - revised the use of the integration of acceleration to find velocity and displacement 
-
 - wrote initial pseudocode for displacement program **total acceleration** 
-
-- wrote initial program to find displacement, *-76823750.0 was  displacement i got first run, somethings happening with the negatives cos of the position of the x-axis on the test i used (will also need to be divided by two due to the swing*   
-
-- [ ] start plan for report
+- wrote initial program to find displacement, *-76823750.0 was  displacement i got first run, somethings happening with the negatives cos of the position of the x-axis on the test i used* 
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)

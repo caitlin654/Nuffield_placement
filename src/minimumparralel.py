@@ -30,10 +30,10 @@ def findminmax(array):
             maximum = array[loops]
     return minimum, maximum
 
-def storeminmix(readingx):
-    min, max = findminmax(readingx)
+def storeminmix(readingy):
+    min, max = findminmax(readingy)
     # mid = (max + min)/2
-    print(min)
+    print(max)
 
     return max
 
