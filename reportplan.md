@@ -14,7 +14,8 @@ Think of this like a brief summary of your research so in a few sentences descri
 
 ---
 
-**Start adding own content below the line. Start with bullet points to build an outline and a narrative arc. State what else you need, graphs, etc. Eventually remove the guidance.**
+
+-  
 
 ## Introduction 
 
@@ -25,6 +26,7 @@ This should be a summary of the information found when carrying out research int
 Qs to ask yourself: What did you set out to do? What were you being asked to do? What information about the subject did you already know (for example, from research papers or articles)? Did you read up on the subject? If so, where did you find the information? How did you go about finding information (perhaps your project supervisor gave you some pointers about where to start)?
 
 ---
+- research question : can a micro:bit be used as an accurate pedometer, counting steps taken and distance traveled/
 
 ## Methodology
 
@@ -38,6 +40,9 @@ Whatever the method, this section should be focussed around describing how resea
 *Qs to ask yourself: What sort of apparatus/equipment/techniques did you use and, in doing so, what safety precautions and special measures did* *you need to take and why?*
 
 ---
+ - brief desciption of arraytest.py, minimumparallel.py and displacementtest.py
+ - explain distance obtainment
+ - include graphs(+annotated one), digram of micro:bit accelerometer, 
 
 ## Results and Discussion
 
@@ -46,6 +51,7 @@ In this section provide information about the results and what they mean. This c
 *Qs to ask yourself: What results did you get? Were they what was expected or were they surprising? Do they support or contradict other* investigations or research on this topic?
 
 ----
+- mention limits of accelerometer mesurement if not fixed by then
 
 ## Conclusion
 
