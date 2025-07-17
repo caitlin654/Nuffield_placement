@@ -18,36 +18,39 @@ Unfortunately, the accelerometer measures changes in acceleration rather than di
 
 - [ ] see what positioning of pedometer are best, and if multiple ones are better or not(dk how you'd upload to multiple?the radio function could maybe be used?)
 
-- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)
-```input.set_accelerometer_range(AcceleratorRange.FOUR_G)```   ? *should work but doesn't*
-
-
-
-
+- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg) 
   
+    ```python
+    input.set_accelerometer_range(
+        AcceleratorRange.FOUR_G)
+    ```
+
+
+
+
+
 
 
 ![walking acceleration graphs](./imgs/walking1graphs.png) 
 
  ![results for above graph](./imgs/minparallel_results_walking1.png) 
 
-
 ## Project log
 
-### Day 4 - 14/7
-- [ ] do actual walking tests with more data, get graphs and count steps
+### Day 5 - 18/7
+- [  ] 
 
+### Day 4 - 17/7
 - [ ] annotate accelerometer graph(walking one)(see example in imgs)/try to see what the acceleration means(make decipherable graph)
 
 - [ ] make plan for how to get distance(and by extension DST)(using total acceleration or max?)
 
-- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)
+- Attempted to increase the range of values measured by the accelerometer 
+  *didn't work, have code that should work but doesn't*
 
-- [ ] see if there is any better way than manually changing the range int every time(*have it minus itself divided by something, would mean its relative to the integer, but if data has small range that the set used to get divisor it wouldn't work, would cause errors if int was negative(and a max, would solve a problem if it was a min, due to the double negative*)
+- collected futher data with walks, checked accuracy of mimparallel with these programs 
 
-  
 
-  
 
 - [ ] start plan for report
 
