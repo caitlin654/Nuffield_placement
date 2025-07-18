@@ -57,7 +57,7 @@
 #### AM
 - [ ] collect more data - see what variables affect quality of data (try leg) 
 - [ ] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**)  *maybe test more with the 4 directions*
-- [ ] try change graphs (add time, labels, make them understandable)
+- [ ] try change graphs (add time, labels, make them understandable, get magnitude of three axis and plot that)(ask about column f)
 #### PM
 - [ ] have a look at stem leader stuff
 - [ ] start plan for report
@@ -70,7 +70,7 @@
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
 - revised the use of the integration of acceleration to find velocity and displacement 
 - wrote initial pseudocode for displacement program **total acceleration?** 
-- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount* 
+- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount, (even when arm isn't swung it still seem more than it should be)*    
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
