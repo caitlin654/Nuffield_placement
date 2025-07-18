@@ -18,31 +18,33 @@ def readin():
         readingz.append(readingz1)
     return readingx, readingy, readingz
 
-def getaccel(readingy):
-    totalaccel = 0
-    for loops in range(0, len(readingy)):
-        totalaccel = (totalaccel + (readingy[loops]/1000))
-    return totalaccel
+def getmag(readingx, readingy, readingz):
+    mag = []
+    for loops in range(0,len(readingx)):
+        addmag = ((readingx[loops]**2) + (readingy[loops]**2) + (readingz[loops]**2))**0.5
+        mag.append(addmag)
+    return mag
 
-
-def getdisplacement(readingy):
+def getdisplacement(mag):
     vel = 0
     dis = 0
     time = 0.1
+    tt = 0
 
-    for loops in range(0, len(readingy)):
-        acc = readingy[loops]/1000
-        vel = vel + (acc)*time
+    for loops in range(0, len(mag)):
+        acc = (mag[loops]/1000) * 9.8
+        vel = (acc)*time
         dis = dis + (vel*time) +(0.5 * acc *(time**2))
+        tt = tt + time
 
     dis = round(dis, 1)
-
-    print(dis)
+    tt = round(tt,1)
+    print(dis,"meters in", tt, "seconds")
     return dis,vel
 
 
 readingx, readingy, readingz = readin()
-totalaccel = getaccel(readingy)
-dis, vel = getdisplacement(readingy)
+mag = getmag(readingx, readingy, readingz)
+dis, vel = getdisplacement(mag)
 
 

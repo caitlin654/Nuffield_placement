@@ -5,11 +5,11 @@ import time
 
 time.sleep(1)
 display.show(Image.HEART)
-time.sleep(4)
+time.sleep(6)
 display.clear()
 
 positions = []
-for loops in range(0, 20):
+for loops in range(0,80):
     position = ""
     position = accelerometer.get_values()
     positions.append(position)
