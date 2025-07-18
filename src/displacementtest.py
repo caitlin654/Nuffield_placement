@@ -25,24 +25,29 @@ def getmag(readingx, readingy, readingz):
         mag.append(addmag)
     return mag
 
-def getdisplacement(mag):
+def getdisplacement(readingx):
     vel = 0
-    dis = 0
+    disp = 0
     time = 0.1
     tt = 0
+    dist = 0
 
-    for loops in range(0, len(mag)):
-        acc = (mag[loops]/1000) * 9.8 # converting from mg to g to ms-2
-        vel =  (acc)*time
-        dis = dis + (vel*time) +(0.5 * acc *(time**2))
+    for loops in range(0, len(readingx)):
+        acc = (readingx[loops]/1000) * 9.8 # converting from mg to g to ms-2
+        vel =  vel + (acc)*time
+        disp = disp + (vel*time) +(0.5 * acc *(time**2))
         tt = tt + time
 
-    dis = round(dis, 1)
+    #for loops in range(0,len(readingx)):
+
+
+    disp = round(disp, 1)
     tt = round(tt,1)
-    print(dis,"meters in", tt, "seconds")
-    return dis,vel
+    print(disp,"meters in", tt, "seconds")
+    return disp,vel
+
 
 
 readingx, readingy, readingz = readin()
-mag = getmag(readingx, readingy, readingz)
-dis, vel = getdisplacement(mag)
+#mag = getmag(readingx, readingy, readingz)
+dis, vel = getdisplacement(readingx)

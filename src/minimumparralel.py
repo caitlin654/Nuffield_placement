@@ -3,13 +3,13 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/360_904_-48.txt'
+    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
     for line in linesarray:
-        lineparts = line.split("	")
+        lineparts = line.split(",")
         readingx1 = int(lineparts[0])
         readingx.append(readingx1)
         readingy1 = int(lineparts[1])
@@ -17,6 +17,14 @@ def readin():
         readingz1 = int(lineparts[2])
         readingz.append(readingz1)
     return readingx, readingy, readingz
+
+def getmag(readingx, readingy, readingz):
+    mag = []
+    for loops in range(0,len(readingx)):
+        addmag = ((readingx[loops]**2) + (readingy[loops]**2) + (readingz[loops]**2))**0.5
+        addmag = round(addmag,0)
+        mag.append(addmag)
+    return mag
 
 
 def findminmax(array):
@@ -30,26 +38,29 @@ def findminmax(array):
             maximum = array[loops]
     return minimum, maximum
 
-def storeminmix(readingy):
-    min, max = findminmax(readingy)
+def storeminmix(mag):
+    min, max = findminmax(mag)
     # mid = (max + min)/2
     print(max)
 
     return max
 
-def countstep(max, readingy):
+def countstep(max, mag):
     steps = 0
     over = []
-    for loops in range(0, len(readingy)):
-        if readingy[loops] > (max - 300):
-            steps = steps + 1
-            over.append(readingy[loops])
-    print(steps, over)
+    boo = []
+    for loops in range(0, len(mag)):
+        if mag[loops] > (max *0.75):
+            boo.append("True")
+        else:
+            boo
+
 
     return over
 
 
 readingx, readingy, readingz = readin()
-max = storeminmix(readingy)
-over = countstep(max, readingy)
+mag = getmag(readingx, readingy, readingz)
+max = storeminmix(mag)
+over = countstep(max, mag)
 
