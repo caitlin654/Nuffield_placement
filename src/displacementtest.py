@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'C:\Users/Summer School - 1/mu_code/test.csv'
+    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -32,8 +32,8 @@ def getdisplacement(mag):
     tt = 0
 
     for loops in range(0, len(mag)):
-        acc = (mag[loops]/1000) * 9.8
-        vel = (acc)*time
+        acc = (mag[loops]/1000) * 9.8 # converting from mg to g to ms-2
+        vel =  (acc)*time
         dis = dis + (vel*time) +(0.5 * acc *(time**2))
         tt = tt + time
 
@@ -46,5 +46,3 @@ def getdisplacement(mag):
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 dis, vel = getdisplacement(mag)
-
-
