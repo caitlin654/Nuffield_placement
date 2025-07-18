@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
+    file_path = r'../data/noswing.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -30,16 +30,19 @@ def getdisplacement(readingx):
     disp = 0
     time = 0.1
     tt = 0
-    dist = 0
+    dist = 0.0
+    disparray = []
 
     for loops in range(0, len(readingx)):
         acc = (readingx[loops]/1000) * 9.8 # converting from mg to g to ms-2
         vel =  vel + (acc)*time
+        disparray.append((vel*time) +(0.5 * acc *(time**2)))
         disp = disp + (vel*time) +(0.5 * acc *(time**2))
         tt = tt + time
 
-    #for loops in range(0,len(readingx)):
-
+    for loops in range(0,len(readingx)):
+        dist = dist + (disparray[loops]-disparray[loops-1])
+    print(dist)
 
     disp = round(disp, 1)
     tt = round(tt,1)
