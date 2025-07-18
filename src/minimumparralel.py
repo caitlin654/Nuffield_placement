@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
+    file_path = r'../data/noswing.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -20,9 +20,9 @@ def readin():
 
 def getmag(readingx, readingy, readingz):
     mag = []
-    for loops in range(0,len(readingx)):
+    for loops in range(0, len(readingx)):
         addmag = ((readingx[loops]**2) + (readingy[loops]**2) + (readingz[loops]**2))**0.5
-        addmag = round(addmag,0)
+        addmag = round(addmag, 0)
         mag.append(addmag)
     return mag
 
@@ -41,7 +41,6 @@ def findminmax(array):
 def storeminmix(mag):
     min, max = findminmax(mag)
     # mid = (max + min)/2
-    print(max)
 
     return max
 
@@ -50,17 +49,19 @@ def countstep(max, mag):
     over = []
     boo = []
     for loops in range(0, len(mag)):
-        if mag[loops] > (max *0.75):
+        if mag[loops] > (max * 0.75):
             boo.append("True")
         else:
-            boo
-
-
-    return over
+            boo.append("False")
+        if boo[loops] == "True" and boo[loops-1] == "False":
+            steps = steps + 1
+            over.append(mag[loops])
+    return over, steps
 
 
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 max = storeminmix(mag)
-over = countstep(max, mag)
+over, steps = countstep(max, mag)
+print(steps, "steps")
 
