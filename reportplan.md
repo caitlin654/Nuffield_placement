@@ -15,7 +15,7 @@ Think of this like a brief summary of your research so in a few sentences descri
 ---
 
 
--  
+-  explain microbit + accelerometer 
 
 ## Introduction 
 
@@ -33,16 +33,16 @@ Qs to ask yourself: What did you set out to do? What were you being asked to do?
 This is where you describe the steps taken throughout the investigation. The content of this section will depend on whether existing data was used or if experiments were conducted and data collected.
 
 * If experimental work was carried out describe the design of the experiment.
-* If data was analysed, describe the source of the data and what the data is. For example, this could be satellite data of a specific geographical area for a limited period of time.
+* If data was analyzed, describe the source of the data and what the data is. For example, this could be satellite data of a specific geographical area for a limited period of time.
 
-Whatever the method, this section should be focussed around describing how research aims are being achieved. Feel free to include diagrams, graphs and/or photos because an image can enhance a piece of text in your report by helping to better communicate ideas.
+Whatever the method, this section should be focused around describing how research aims are being achieved. Feel free to include diagrams, graphs and/or photos because an image can enhance a piece of text in your report by helping to better communicate ideas.
 
 *Qs to ask yourself: What sort of apparatus/equipment/techniques did you use and, in doing so, what safety precautions and special measures did* *you need to take and why?*
 
 ---
- - brief desciption of arraytest.py, minimumparallel.py and displacementtest.py
+ - brief description of arraytest.py, minimumparallel.py and displacementtest.py
  - explain distance obtainment
- - include graphs(+annotated one), digram of micro:bit accelerometer, 
+ - include graphs(+annotated one), diagram of micro:bit accelerometer, 
 
 ## Results and Discussion
 
@@ -51,7 +51,7 @@ In this section provide information about the results and what they mean. This c
 *Qs to ask yourself: What results did you get? Were they what was expected or were they surprising? Do they support or contradict other* investigations or research on this topic?
 
 ----
-- mention limits of accelerometer mesurement if not fixed by then
+- mention limits of accelerometer measurement if not fixed by then
 
 ## Conclusion
 

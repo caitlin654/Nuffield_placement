@@ -53,12 +53,22 @@
 
 ### Day 6 - 21/7
 
+- [ ] start to update displacement test so it calculates displacement and distance?
+
 ### Day 5 - 18/7
 #### AM
-- [ ] collect more data - see what variables affect quality of data (try leg) 
-- [ ] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**)  *maybe test more with the 4 directions*
-- [ ] try change graphs (add time, labels, make them understandable, get magnitude of three axis and plot that)(ask about column f)
+- [ ] collect more data - see what variables affect quality of data (try leg) (swing vs no swing)
+- [ ] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**) 
+- [ ] make a nice graph with walking data (add time, labels, make them understandable
+- [ ] start to update displacement test so it calculates displacement and distance?
+- tried to fix error in displacement calculating program 
+- updated graph so that it uses magnitude of three axis, and then counts steps using percentage instead of chosen number 
+- updated minimumparallel.py so that it uses magnitude to count steps instead of whatever axis i thought looked best, and changed it so that it didn't count every point over the boundary, just new ones
+
 #### PM
+
+- [ ] go to talk thing
+
 - [ ] have a look at stem leader stuff
 - [ ] start plan for report
 
@@ -70,7 +80,7 @@
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
 - revised the use of the integration of acceleration to find velocity and displacement 
 - wrote initial pseudocode for displacement program **total acceleration?** 
-- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount, (even when arm isn't swung it still seem more than it should be)*    
+- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount, (even when arm isn't swung it still is more than it should be)*    
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
