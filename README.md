@@ -41,30 +41,25 @@
 
 
 
-
-
-
-
-![walking acceleration graphs](./imgs/walking1graphs.png) 
-
- ![results for above graph](./imgs/minparallel_results_walking1.png) 
-
 ## Project log
+
+end of last week - presentation
+
+someone said something about a blog?
+
+poster and report due 31/8
 
 ### Day 6 - 21/7
 
-- [ ] start to update displacement test so it calculates displacement and distance?
+- [ ] try fix whatever is happening with the distance def
+- [ ] decide about gui and what it would actually entail
 - [ ] have a look at stem leader stuff
-- [ ] start plan for report
+- [ ] further plan for report and poster (diagram of microbit)
+- [ ] take swing data
+- [ ] make tidy graphs(labels,times) with swing data and place in images section along with min output
 
 ### Day 5 - 18/7
 
-
-- [ ] go to talk thing @ 2 
-
-- [ ] make a nice graph with walking() data (add time, labels, make them understandable) 
-
-  
 
 - tried to fix error in displacement calculating program 
 
@@ -75,6 +70,8 @@
 - tested pedometer with no swing of the arm( just held still) **no swing seems to give better results, especially on the y axis**
 
 - started trying to get distance as well as displacement *just got 0.0 dk why* 
+
+- made tidy graphs(labels,times) with no_swing data (see images)
 
 ### Day 4 - 17/7
 - annotated accelerometer graph
@@ -123,3 +120,15 @@
 - put info into arrays and print arrays
 - got info in all three axis
 
+## Images
+![fake walking acceleration graphs](./imgs/walking1graphs.png) 
+![ minparallel results for above graph](./imgs/minparallel_results_walking1.png) 
+
+graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py
+
+
+
+![no swing graphs](./imgs/no_swing_graphs.png) 
+![minparallel no swing results](./imgs/minimumparallelresults_noswing.png)  
+
+graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph 
