@@ -63,5 +63,7 @@ readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 max = storeminmix(mag)
 over, steps = countstep(max, mag)
+print(max)
 print(steps, "steps")
+print(over)
 
