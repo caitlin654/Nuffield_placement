@@ -39,7 +39,18 @@
         AcceleratorRange.FOUR_G)
     ```
 
+- [ ] calculate distance alongside displacement
 
+
+``` pseudocode
+for loops in range(0,len(x)):
+	change_x = x[loops] - x[loops-1] 
+	change_y = y[loops] - y[loops-1] 
+	change_distance = (change_x**2 + change_y**2)
+	# might then have to do a running total in the loop idk
+```
+
+​    
 
 ## Project log
 
@@ -51,10 +62,10 @@ poster and report due 31/8
 
 ### Day 6 - 21/7
 
-- [ ] try fix whatever is happening with the distance def
+- [ ] try fix whatever is happening with the distance def (see steps on what to do)
 - [ ] decide about gui and what it would actually entail
 - [ ] have a look at stem leader stuff
-- [ ] further plan for report and poster (diagram of microbit)
+- [ ] further plan for report and poster (diagram of microbit)(find font)
 - [ ] take swing data
 - [ ] make tidy graphs(labels,times) with swing data and place in images section along with min output
 
@@ -69,7 +80,7 @@ poster and report due 31/8
 
 - tested pedometer with no swing of the arm( just held still) **no swing seems to give better results, especially on the y axis**
 
-- started trying to get distance as well as displacement *just got 0.0 dk why* 
+- started trying to get distance as well as displacement 
 
 - made tidy graphs(labels,times) with no_swing data (see images)
 
