@@ -30,7 +30,7 @@
 
   
 
-- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, ** no swing also seems to give better results**)  *maybe test more with the 4 directions* 
+- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, ** no arm swing also seems to give better results**)  *maybe test more with the 4 directions* 
 
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg) 
   
@@ -66,8 +66,8 @@ poster and report due 31/8
 - [ ] decide about gui and what it would actually entail
 - [ ] have a look at stem leader stuff
 - [ ] further plan for report and poster (diagram of microbit)(find font)
-- [ ] take swing data
-- [ ] make tidy graphs(labels,times) with swing data and place in images section along with min output
+- [ ] take data with arm swing
+- [ ] make tidy graphs(labels,times) with arm swing data and place in images section along with min output
 
 ### Day 5 - 18/7
 
@@ -78,7 +78,7 @@ poster and report due 31/8
 
 - updated minimumparallel.py so that it uses magnitude to count steps instead of whatever axis i thought looked best, and uses the same step counting as the excel sheets *think that's the best way to count them, maybe check*
 
-- tested pedometer with no swing of the arm( just held still) **no swing seems to give better results, especially on the y axis**
+- tested pedometer with no swing of the arm (just held still) **no swing seems to give better results, especially on the y axis**
 
 - started trying to get distance as well as displacement 
 
