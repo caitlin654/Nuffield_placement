@@ -66,19 +66,19 @@ poster and report due 31/8
 
 ### Day 6 - 21/7
 
-- [ ] combine minimumparallel.py and displacementtest.py
-
-- [ ] try and do more distance stuff
-
-  
-
 - [ ] have a look at stem leader stuff
 
 - [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
 
+  
+
 - began to implement user interface for display of displacement and time *very basic but more just a placeholder* 
-- implemented distance module ? *idk if it works, the top part is wrong i think*
+
+- implemented distance module ? 
+
 - collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
+
+- made a big program of both minimumparallel.py and displacementtest.py 
 
 ### Day 5 - 18/7
 
@@ -143,14 +143,14 @@ poster and report due 31/8
 - got info in all three axis
 
 ## Images
-![fake walking acceleration graphs](./imgs/walking1graphs.png) 
+![fake walking acceleration graphs](./imgs/walking1graphs.png)  
 ![ minparallel results for above graph](./imgs/minparallel_results_walking1.png) 
 
 graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py (results and graph are from an old version of minimumparallel.py) 
 
 
 
-![no swing graphs](./imgs/no_swing_graphs.png) 
+![no swing graphs](./imgs/no_swing_graphs.png)  
 ![minparallel no swing results](./imgs/minimumparallelresults_noswing.png)  
 
 graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph 
