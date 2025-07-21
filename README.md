@@ -74,7 +74,7 @@ poster and report due 31/8
 
 - began to implement interface for display of outputs
 
-- implemented distance module ? 
+- implemented distance module ? *doesn't work,* 
 
 - collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
 
