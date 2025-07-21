@@ -57,6 +57,7 @@ for loops in range(0,len(x)):
 ## SL7 To Do
 - [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. 
 - [ ]  add error logs back in
+- [ ]  complete outcome 3 & 6
 
 
 ## Project log
@@ -69,11 +70,13 @@ poster and report due 31/8
 
 ### Day 7 - 22/7
 
-- [ ]  try to look at distance vs displacement
-- [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
+- [ ] try to look at distance vs displacement
+  -  [ ] revise difference and see what needs to be done to collect them 
+- [ ] further plan for report and poster (diagram of micro:bit)(find font)(start proper report outline)
 
-- [ ]  add errors logs to previous project logs
-- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities.
+- [ ] add errors logs to previous project logs
+- [ ] create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities.
+- [ ]  finish SL7 booklet(outcome 3 & 6)
 
 ### Day 6 - 21/7
 
