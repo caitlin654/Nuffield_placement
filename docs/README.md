@@ -62,23 +62,23 @@ poster and report due 31/8
 
 ### Day 7 - 22/7
 
+- [ ] 
+
 ### Day 6 - 21/7
 
-- [ ] try fix whatever is happening with the distance def 
-
-- [ ] decide about gui and what it would actually entail
-
-- [ ] take data with arm swing
-
-- [ ] make tidy graphs(labels,times) with arm swing data and place in images section along with min output
-
 - [ ] combine minimumparallel.py and displacementtest.py
+
+- [ ] try and do more distance stuff
 
   
 
 - [ ] have a look at stem leader stuff
 
-- [ ] further plan for report and poster (diagram of microbit)(find font)
+- [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
+
+- began to implement user interface for display of displacement and time *very basic but more just a placeholder* 
+- implemented distance module ? *idk if it works, the top part is wrong i think*
+- collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
 
 ### Day 5 - 18/7
 
@@ -146,7 +146,7 @@ poster and report due 31/8
 ![fake walking acceleration graphs](./imgs/walking1graphs.png) 
 ![ minparallel results for above graph](./imgs/minparallel_results_walking1.png) 
 
-graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py
+graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py (results and graph are from an old version of minimumparallel.py)
 
 
 
@@ -154,3 +154,9 @@ graphs and results from fake walking (arm swing), first test for graphs and mini
 ![minparallel no swing results](./imgs/minimumparallelresults_noswing.png)  
 
 graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph 
+
+
+
+![swing graphs](./imgs/SWINGGRAPHS.png)
+![minparallel swing results](./imgs/minimumparallel_swing.png) 
+graphs and results for arm swing test - magnitude of accleration is still very similar to y axis, but now slightly diffrent due to swing
