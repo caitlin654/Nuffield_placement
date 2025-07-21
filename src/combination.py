@@ -28,23 +28,16 @@ def getmag(readingx, readingy, readingz):
         mag.append(addmag)
     return mag
 
+def findminmax(mag):
+    minimum = mag[0]
+    maximum = mag[0]
 
-def findminmax(array):
-    minimum = array[0]
-    maximum = array[0]
-
-    for loops in range(0, len(array)):
-        if array[loops] < minimum:
-            minimum = array[loops]
-        elif array[loops] > maximum:
-            maximum = array[loops]
+    for loops in range(0, len(mag)):
+        if mag[loops] < minimum:
+            minimum = mag[loops]
+        elif mag[loops] > maximum:
+            maximum = mag[loops]
     return minimum, maximum
-
-def storeminmix(mag):
-    min, max = findminmax(mag)
-    # mid = (max + min)/2
-
-    return max
 
 def countstep(max, mag):
     steps = 0
@@ -58,7 +51,8 @@ def countstep(max, mag):
         if boo[loops] == "True" and boo[loops-1] == "False":
             steps = steps + 1
             over.append(mag[loops])
-    return over, steps
+    return  steps
+
 def getdisplacement(readingx):
     vel = 0
     disp = 0
@@ -77,26 +71,22 @@ def getdisplacement(readingx):
 
     return disp, vel, tt
 
-def distance(y, x):
+def distance(ay, ax):
     dist = 0
-    for loops in range(1, len(y)):
+    for loops in range(1, len(ay)):
         changex = 0
         changey = 0
         changedist = 0
         time = 0.1
 
-        accx = (x[loops]/1000) *9.8 # converting from mg to g to ms-2
-        accy = (y[loops]/1000) *9.8
+        accx = (ax[loops]/1000) *9.8 # converting from mg to g to ms-2
+        accy = (ay[loops]/1000) *9.8
         velx = (accx)*time
         vely = (accy)*time
 
 
-        #x[loops] = x[loops - 1] + ((vel * time) + (0.5 * acc * (time)**2))
-        #changex = x[loops] - x[loops - 1]
         changex = ((velx * time) + (0.5 * accx * (time)**2))
-        #changex = (changex/1000)
         changey = ((vely * time) + (0.5 * accy * (time)**2))
-        #changey = (changey/1000)
         changedist = ((changex**2) + (changey**2))**0.5
         dist = dist + changedist
 
@@ -104,14 +94,15 @@ def distance(y, x):
 
     return dist
 
-
+#top level
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
-max = storeminmix(mag)
-over, steps = countstep(max, mag)
+minimum, maximum = findminmax(mag)
+steps = countstep(maximum, mag)
 disp, vel, tt = getdisplacement(readingx)
 dist = distance(readingy, readingx)
 
+#outputs
 display = tk.Label(text = "Displacement: " +str(disp)+" meters in "+str(tt)+" seconds")
 display.pack()
 
