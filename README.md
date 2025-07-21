@@ -30,9 +30,9 @@
 
   
 
-- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, ** no arm swing also seems to give better results**)  *maybe test more with the 4 directions* 
+- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, ** no arm swing also seems to give better results**) 
 
-- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg) 
+- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**
   
     ```python
     input.set_accelerometer_range(
@@ -42,19 +42,19 @@
 - [ ] calculate distance alongside displacement
 
 
-``` pseudocode
+``` python
 for loops in range(0,len(x)):
-	change_x = x[loops] - x[loops-1] 
-	change_y = y[loops] - y[loops-1] 
-	change_distance = (change_x**2 + change_y**2)**0.5
-	# might then have to do a running total in the loop idk
+	changex = ((velx * time) + (0.5 * accx * (time)**2))
+    changey = ((vely * time) + (0.5 * accy * (time)**2))
+   	changedist = ((changex**2) + (changey**2))**0.5
+    dist = dist + changedist
 ```
 
 ​    
 
 ## Project log
 
-end of last week - presentationS
+end of last week - presentation
 
 someone said something about a blog?
 
@@ -72,7 +72,7 @@ poster and report due 31/8
 
   
 
-- began to implement user interface for display of displacement and time *very basic but more just a placeholder* 
+- began to implement interface for display of outputs
 
 - implemented distance module ? 
 
@@ -81,6 +81,8 @@ poster and report due 31/8
 - made a big program of both minimumparallel.py and displacementtest.py 
 
 - read more articles for references 
+
+- tried to set the range of the accelerometer again, *still doesn't work* 
 
 ### Day 5 - 18/7
 
