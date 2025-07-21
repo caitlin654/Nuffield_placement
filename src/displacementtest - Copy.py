@@ -34,7 +34,7 @@ def getdisplacement(readingx):
     tt = 0
 
     for loops in range(0, len(readingx)):
-        acc = (readingx[loops]/1000) * 9.8  # converting from mg to g to ms-2
+        acc = (readingx[loops]/1000) * 9.8 # converting from mg to g to ms-2
         vel = vel + (acc)*time
         disp = disp + (vel*time) + (0.5 * acc * (time**2))
         tt = tt + time
@@ -53,14 +53,18 @@ def distance(y, x):
         changedist = 0
         time = 0.1
 
-        acc = (readingx[loops]/1000) * 9.8  # converting from mg to g to ms-2
-        vel = (acc)*time
+        accx = (x[loops]/1000) *9.8 # converting from mg to g to ms-2
+        accy = (y[loops]/1000) *9.8
+        velx = (accx)*time
+        vely = (accy)*time
 
-        x[loops] = x[loops - 1] + ((vel * time) + (0.5 * acc * (time)**2))
-        changex = x[loops] - x[loops - 1]
-        changex = (changex/1000) * 9.8
-        changey = y[loops] - y[loops - 1]
-        changey = (changey/1000) * 9.8
+
+        #x[loops] = x[loops - 1] + ((vel * time) + (0.5 * acc * (time)**2))
+        #changex = x[loops] - x[loops - 1]
+        changex = ((velx * time) + (0.5 * accx * (time)**2))
+        #changex = (changex/1000)
+        changey = ((vely * time) + (0.5 * accy * (time)**2))
+        #changey = (changey/1000)
         changedist = ((changex**2) + (changey**2))**0.5
         dist = dist + changedist
 

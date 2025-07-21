@@ -1,0 +1,125 @@
+import tkinter as tk
+
+def readin():
+    entirefile = ""
+    readingx = []
+    readingy = []
+    readingz = []
+    file_path = r'../data/noswing.csv'
+    entirefile = open(file_path, "r")
+    linesarray = entirefile.read().splitlines()
+    entirefile.close()
+
+    for line in linesarray:
+        lineparts = line.split(",")
+        readingx1 = int(lineparts[0])
+        readingx.append(readingx1)
+        readingy1 = int(lineparts[1])
+        readingy.append(readingy1)
+        readingz1 = int(lineparts[2])
+        readingz.append(readingz1)
+    return readingx, readingy, readingz
+
+def getmag(readingx, readingy, readingz):
+    mag = []
+    for loops in range(0, len(readingx)):
+        addmag = ((readingx[loops]**2) + (readingy[loops]**2) + (readingz[loops]**2))**0.5
+        addmag = round(addmag, 0)
+        mag.append(addmag)
+    return mag
+
+
+def findminmax(array):
+    minimum = array[0]
+    maximum = array[0]
+
+    for loops in range(0, len(array)):
+        if array[loops] < minimum:
+            minimum = array[loops]
+        elif array[loops] > maximum:
+            maximum = array[loops]
+    return minimum, maximum
+
+def storeminmix(mag):
+    min, max = findminmax(mag)
+    # mid = (max + min)/2
+
+    return max
+
+def countstep(max, mag):
+    steps = 0
+    over = []
+    boo = []
+    for loops in range(0, len(mag)):
+        if mag[loops] > (max * 0.75):
+            boo.append("True")
+        else:
+            boo.append("False")
+        if boo[loops] == "True" and boo[loops-1] == "False":
+            steps = steps + 1
+            over.append(mag[loops])
+    return over, steps
+def getdisplacement(readingx):
+    vel = 0
+    disp = 0
+    time = 0.1
+    tt = 0
+
+    for loops in range(0, len(readingx)):
+        acc = (readingx[loops]/1000) * 9.8 # converting from mg to g to ms-2
+        vel = vel + (acc)*time
+        disp = disp + (vel*time) + (0.5 * acc * (time**2))
+        tt = tt + time
+
+    disp = round(disp, 1)
+    disp = abs(disp)
+    tt = round(tt, 1)
+
+    return disp, vel, tt
+
+def distance(y, x):
+    dist = 0
+    for loops in range(1, len(y)):
+        changex = 0
+        changey = 0
+        changedist = 0
+        time = 0.1
+
+        accx = (x[loops]/1000) *9.8 # converting from mg to g to ms-2
+        accy = (y[loops]/1000) *9.8
+        velx = (accx)*time
+        vely = (accy)*time
+
+
+        #x[loops] = x[loops - 1] + ((vel * time) + (0.5 * acc * (time)**2))
+        #changex = x[loops] - x[loops - 1]
+        changex = ((velx * time) + (0.5 * accx * (time)**2))
+        #changex = (changex/1000)
+        changey = ((vely * time) + (0.5 * accy * (time)**2))
+        #changey = (changey/1000)
+        changedist = ((changex**2) + (changey**2))**0.5
+        dist = dist + changedist
+
+    dist = round(dist,0)
+
+    return dist
+
+
+readingx, readingy, readingz = readin()
+mag = getmag(readingx, readingy, readingz)
+max = storeminmix(mag)
+over, steps = countstep(max, mag)
+disp, vel, tt = getdisplacement(readingx)
+dist = distance(readingy, readingx)
+
+display = tk.Label(text = "Displacement: " +str(disp)+" meters in "+str(tt)+" seconds")
+display.pack()
+
+display2 =tk.Label(text = "Distance: "+str(dist) +" meters in "+str(tt)+" seconds")
+display2.pack()
+
+display3 = tk.Label(text = "Steps: " + str(steps))
+display3.pack()
+
+display4 = tk.Label(text = "Max: "+str(max))
+display4.pack()
