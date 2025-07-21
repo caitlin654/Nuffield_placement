@@ -6,7 +6,7 @@ def readin():
     readingy = []
     readingz = []
     file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
-    #file_path = r'../data/walking5.csv'
+    # file_path = r'../data/walking5.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -55,23 +55,32 @@ def countstep(max, mag):
             over.append(mag[loops])
     return steps
 
-def getdisplacement(readingx):
-    vel = 0
+def getdisplacement(readingx, readingy):
+    velx = 0
+    vely = 0
+    accx = 0
+    accy = 0
+    dispx = 0
+    dispy = 0
     disp = 0
     time = 0.1
     t = 0
 
     for loops in range(0, len(readingx)):
-        acc = (readingx[loops]/1000) * 9.8  # converting from mg to g to ms-2
-        vel = vel + (acc)*time
-        disp = disp + (vel*time) + (0.5 * acc * (time**2))
+        accx = (readingx[loops]/1000) * 9.8  # converting from mg to g to ms-2
+        accy = (readingy[loops]/1000) * 9.8
+        velx = velx + (accx)*time
+        vely = vely + (accy)*time
+        dispx = dispx + ((velx*time) + (0.5 * accx * (time**2)))
+        dispy = dispy + ((velx*time) + (0.5 * accy * (time**2)))
+        disp = ((dispy**2)+(dispx**2))**0.5
         t = t + time
 
     disp = round(disp, 2)
     disp = abs(disp)
     t = round(t, 1)
 
-    return disp, vel, t
+    return disp, t
 
 def distance(ay, ax):
     dist = 0
@@ -82,7 +91,7 @@ def distance(ay, ax):
         changedist = 0
         time = 0.1
 
-        accx = ((ax[loops]/1000) * 9.8 ) # converting from mg to g to ms-2
+        accx = ((ax[loops]/1000) * 9.8)  # converting from mg to g to ms-2
         accy = ((ay[loops]/1000) * 9.8)
         velx = (accx)*time
         vely = (accy)*time
@@ -93,27 +102,31 @@ def distance(ay, ax):
         dist = dist + changedist
         tt = tt + time
 
-
     dist = round(dist, 2)
-    tt = round(tt,1)
+    tt = round(tt, 1)
 
     return dist, tt
+
 
 # top level
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 minimum, maximum = findminmax(mag)
 steps = countstep(maximum, mag)
-disp, vel, t = getdisplacement(readingx)
+disp, t = getdisplacement(readingx, readingy)
 dist, tt = distance(readingy, readingx)
 
 # outputs
 root = tk.Tk()
 root.geometry("500x250")
-text_widget = tk.Text(root, wrap='word', height=20, width=80, font='serif', bg ="#b9cded", fg = "#3b3e45")
-#text_widget.insert(tk.END, "Displacement: " + str(disp)+" meters in " + str(tt)+" seconds \n")
-text_widget.insert(tk.END, "Distance: " + str(dist) + " meters in " + str(tt)+" seconds \n" )
-text_widget.insert(tk.END, "Steps: " + str(steps) +"\n")
-#text_widget.insert(tk.END, "Max: " + str(maximum) +"\n")
+text_widget = tk.Text(root, wrap='word', height=20, width=80,
+                      font='serif', bg="#b9cded", fg="#3b3e45")
+text_widget.insert(tk.END, "Displacement: " + str(disp)+" meters in " + str(tt)
+                   + " seconds \n")
+text_widget.insert(tk.END, "Distance: " + str(dist) + " meters in " + str(tt)
+                   + " seconds \n")
+text_widget.insert(tk.END, "Steps: " + str(steps) + "\n")
+# text_widget.insert(tk.END, "Max: " + str(maximum) +"\n")
 text_widget.pack(expand=True, fill='both')
 root.mainloop()
+
