@@ -46,7 +46,7 @@
 for loops in range(0,len(x)):
 	change_x = x[loops] - x[loops-1] 
 	change_y = y[loops] - y[loops-1] 
-	change_distance = (change_x**2 + change_y**2)
+	change_distance = (change_x**2 + change_y**2)**0.5
 	# might then have to do a running total in the loop idk
 ```
 
@@ -54,20 +54,31 @@ for loops in range(0,len(x)):
 
 ## Project log
 
-end of last week - presentation
+end of last week - presentationS
 
 someone said something about a blog?
 
 poster and report due 31/8
 
+### Day 7 - 22/7
+
 ### Day 6 - 21/7
 
-- [ ] try fix whatever is happening with the distance def (see steps on what to do)
+- [ ] try fix whatever is happening with the distance def 
+
 - [ ] decide about gui and what it would actually entail
-- [ ] have a look at stem leader stuff
-- [ ] further plan for report and poster (diagram of microbit)(find font)
+
 - [ ] take data with arm swing
+
 - [ ] make tidy graphs(labels,times) with arm swing data and place in images section along with min output
+
+- [ ] combine minimumparallel.py and displacementtest.py
+
+  
+
+- [ ] have a look at stem leader stuff
+
+- [ ] further plan for report and poster (diagram of microbit)(find font)
 
 ### Day 5 - 18/7
 
