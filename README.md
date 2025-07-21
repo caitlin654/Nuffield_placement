@@ -80,6 +80,8 @@ poster and report due 31/8
 
 - made a big program of both minimumparallel.py and displacementtest.py 
 
+- read more articles for references 
+
 ### Day 5 - 18/7
 
 

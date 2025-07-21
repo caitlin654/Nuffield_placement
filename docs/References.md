@@ -18,6 +18,16 @@
 
 > analog.com seems to be good for research, as they are focused on small simple pedometers
 
+
+
+https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-018-1609-y
+
+https://link.springer.com/article/10.2165/00007256-200434010-00001#Sec6
+
+> explains why steps are needed, and so why pedometers are good 
+
+
+
 ## Videos
 
 * [Pedometer algorithms explained](https://www.youtube.com/watch?v=cpwrwPTqMac)
@@ -26,4 +36,8 @@
 
 ## Other
 https://makecode.microbit.org/reference/input/set-accelerometer-range
-should be ab,e to change the accelerometer range but it doesn't
+*should be able to change the accelerometer range but it doesn't* 
+
+https://microbit-challenges.readthedocs.io/en/latest/tutorials/accelerometer.html
+
+intro to the accelerometer
