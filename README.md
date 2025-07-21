@@ -30,7 +30,7 @@
 
   
 
-- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, ** no arm swing also seems to give better results**) 
+- [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, **no arm swing also seems to give better results**) 
 
 - [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**
   
@@ -50,7 +50,11 @@ for loops in range(0,len(x)):
     dist = dist + changedist
 ```
 
-​    
+- [ ] can it see the difference between activities (like stairs/walking)
+
+- [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
+
+  
 
 ## Project log
 
@@ -62,19 +66,19 @@ poster and report due 31/8
 
 ### Day 7 - 22/7
 
-- [ ]  
+- [ ]  try to look at distance vs displacement
 
 ### Day 6 - 21/7
 
-- [ ] have a look at stem leader stuff
+- [ ] have a look at stem leader stuff 
 
 - [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
 
   
 
-- began to implement interface for display of outputs
+- began to implement interface for display of outputs *doesn't kill program when close window* 
 
-- implemented distance module and realized displacement one doesn't work *i think the distance one works but the displacement one doesnt work, except with noswing data set* 
+- implemented distance module and realized displacement one doesn't work *i think the distance one works but the displacement one doesn't work, (except with noswing data set* )
 
 - collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
 
@@ -91,7 +95,7 @@ poster and report due 31/8
 
 - updated graph so that it uses magnitude of three axis, and then counts steps using percentage instead of chosen number 
 
-- updated minimumparallel.py so that it uses magnitude to count steps instead of whatever axis i thought looked best, and uses the same step counting as the excel sheets *think that's the best way to count them, maybe check*
+- updated minimumparallel.py so that it uses magnitude to count steps instead of whatever axis i thought looked best, and uses the same step counting as the excel sheets
 
 - tested pedometer with no swing of the arm (just held still) **no swing seems to give better results, especially on the y axis**
 
@@ -102,11 +106,11 @@ poster and report due 31/8
 ### Day 4 - 17/7
 - annotated accelerometer graph
 - Attempted to increase the range of values measured by the accelerometer 
-  *didn't work, have code that should work but doesn't*
+  *didn't work, have code that should work but doesn't* 
 - collected further data with walks, checked accuracy of minparallel.py with these programs 
 - revised the use of the integration of acceleration to find velocity and displacement 
 - wrote initial pseudocode for displacement program **total acceleration?** 
-- wrote initial program to find displacement, *results seem larger that they should be, but not by a significant amount, (even when arm isn't swung it still is more than it should be)*    
+- wrote initial program to find displacement(results seemed larger than they should) 
 
 ### Day 3 - 16/7 
 - made graphs from data sets(csv converted to excel) produced when the micro:bit was shaken, stationary and walking(swinging while held)
@@ -116,7 +120,7 @@ poster and report due 31/8
 
 > With this type of step counter, the number of zero crossings or peaks of the vertical acceleration of the body versus time curve is used to determine the number of steps. 
 
-- updated max and min finding program to count every time a reading is within range of the max, and used this to count the steps (with walking graphs average peaks can be found much easier, so this will work better) ( *could minus minimum from all other data to find relatives*   ? dk if its really needed but would make graph interpretation easier later on)
+- updated max and min finding program to count every time a reading is within range of the max, and used this to count the steps (with walking graphs average peaks can be found much easier, so this will work better) 
 
 - did mock walking(swinging arm ) tests with larger arrays, made graphs and counted steps(graph peaks) with minimumparallel.py 
 
@@ -130,7 +134,7 @@ poster and report due 31/8
 - got the micro:bit to make a file
 - wrote positions into the file **must be strs** 
 - exported file to new program and printed as a mu graph
-- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didnt work, cos midpoints were used)
+- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didn't work, cos midpoints were used)
 - converted csv files with the data to excel spreadsheet 
 - increased range of data being taken in, and tested for error caused by this
 
