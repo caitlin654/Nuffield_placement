@@ -62,7 +62,7 @@ poster and report due 31/8
 
 ### Day 7 - 22/7
 
-- [ ] 
+- [ ]  
 
 ### Day 6 - 21/7
 
@@ -146,7 +146,7 @@ poster and report due 31/8
 ![fake walking acceleration graphs](./imgs/walking1graphs.png) 
 ![ minparallel results for above graph](./imgs/minparallel_results_walking1.png) 
 
-graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py (results and graph are from an old version of minimumparallel.py)
+graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py (results and graph are from an old version of minimumparallel.py) 
 
 
 
