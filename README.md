@@ -54,7 +54,10 @@ for loops in range(0,len(x)):
 
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
-  
+## SL7 To Do
+- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. 
+- [ ]  add error logs back in
+
 
 ## Project log
 
@@ -67,31 +70,25 @@ poster and report due 31/8
 ### Day 7 - 22/7
 
 - [ ]  try to look at distance vs displacement
+- [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
+
+- [ ]  add errors logs to previous project logs
+- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities.
 
 ### Day 6 - 21/7
 
-- [ ] have a look at stem leader stuff 
-
-- [ ] further plan for report and poster (diagram of microbit)(find font)(start proper report outline)
-
-  
-
 - began to implement interface for display of outputs *doesn't kill program when close window* 
-
 - implemented distance module and realized displacement one doesn't work *i think the distance one works but the displacement one doesn't work, (except with noswing data set* )
-
 - collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
-
 - made a big program of both minimumparallel.py and displacementtest.py 
-
 - read more articles for references 
-
 - tried to set the range of the accelerometer again, *still doesn't work* 
+- started stem leader booklet
 
 ### Day 5 - 18/7
 
 
-- tried to fix error in displacement calculating program 
+- tried to fix error in displacement calculating program *add*
 
 - updated graph so that it uses magnitude of three axis, and then counts steps using percentage instead of chosen number 
 
@@ -99,7 +96,7 @@ poster and report due 31/8
 
 - tested pedometer with no swing of the arm (just held still) **no swing seems to give better results, especially on the y axis**
 
-- started trying to get distance as well as displacement 
+- started trying to get distance as well as displacement *add*
 
 - made tidy graphs(labels,times) with no_swing data (see images)
 
@@ -124,7 +121,7 @@ poster and report due 31/8
 
 - did mock walking(swinging arm ) tests with larger arrays, made graphs and counted steps(graph peaks) with minimumparallel.py 
 
-- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used , and changed whether int is being added to or taken away from**)
+- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used , and changed whether int is being added to or taken away from**) *add* 
 
   
 
@@ -132,9 +129,9 @@ poster and report due 31/8
 
 
 - got the micro:bit to make a file
-- wrote positions into the file **must be strs** 
+- wrote positions into the file **must be strs** *add* 
 - exported file to new program and printed as a mu graph
-- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didn't work, cos midpoints were used)
+- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didn't work, cos midpoints were used)*add* 
 - converted csv files with the data to excel spreadsheet 
 - increased range of data being taken in, and tested for error caused by this
 
@@ -144,7 +141,7 @@ poster and report due 31/8
   (Mu, Git, Typora)
 - writing basic micro:bit programs for testing and refamiliarization 
 - writing basic micro:bit programs involving accelerometer
-- attempted setting up the micro:bit for remote use
+- attempted setting up the micro:bit for remote use *add* 
 - wrote basic program to turn a small array into a graph
 - got data for multiple loops
 - put info into arrays and print arrays
