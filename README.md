@@ -50,7 +50,7 @@ for loops in range(0,len(x)):
     dist = dist + changedist
 ```
 
-- [ ] can it see the difference between activities (like stairs/walking)
+- [ ] can it see the difference between activities (like stairs/walking)(ask remote)
 
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
