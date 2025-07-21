@@ -1,8 +1,6 @@
 from microbit import *
 import time
 
-# input.set_accelerometer_range(AcceleratorRange.FOUR_G)
-
 time.sleep(1)
 display.show(Image.HEART)
 time.sleep(4)
