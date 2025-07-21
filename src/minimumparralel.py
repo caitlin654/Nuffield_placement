@@ -3,7 +3,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/noswing.csv'
+    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
