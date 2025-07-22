@@ -69,13 +69,14 @@ poster and report due 31/8
 
 ### Day 8 - 23/7
 
-- [ ] 
+- [ ] start report
+- [ ] decide what more to do with accelerometer(positioning)
 
 ### Day 7 - 22/7
 
-- [ ] further plan for report (start proper report outline)
+- [ ] finish SL7 outcome 3 and start outcome 6
 
-- [ ] finish SL7 outcome 3 and start outcome 7
+  
 
 - made Gantt chart for project
 
@@ -95,7 +96,9 @@ poster and report due 31/8
 
 - made graphs for stairs data sets
 
-- updated combi results for older data sets
+- updated combi.py results for older data sets
+
+- made further plans for reports, started writeup
 
   
 
