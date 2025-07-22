@@ -32,14 +32,14 @@
 
 - [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, **no arm swing also seems to give better results**) 
 
-- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**
+- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**  *attribute error*  
   
     ```python
     input.set_accelerometer_range(
         AcceleratorRange.FOUR_G)
     ```
 
-- [ ] calculate distance alongside displacement
+- [x] calculate distance alongside displacement
 
 
 ``` python
@@ -50,7 +50,7 @@ for loops in range(0,len(x)):
     dist = dist + changedist
 ```
 
-- [ ] can it see the difference between activities (like stairs/walking)(ask remote)
+- [ ] can it see the difference between activities (like stairs/walking)(ask remote) 
 
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
@@ -67,14 +67,17 @@ someone said something about a blog?
 
 poster and report due 31/8
 
+### Day 8 - 23/7
+
+- [ ] 
+
 ### Day 7 - 22/7
 
-- [ ] try to look at distance vs displacement
-  -  [ ] revise difference and see what needs to be done to collect them 
-  
 - [ ] further plan for report (start proper report outline)
 
 - [ ] finish SL7 outcome 3 and start outcome 7
+
+- [ ] collect and niceify graphs from steps(up and down)
 
   
 
@@ -87,6 +90,14 @@ poster and report due 31/8
 - wrote a Personal Development Plan
 
 - did further poster design (added axis diagram)
+
+- revised distance vs displacement and implemented new plan *think it works now*  
+
+- collected and tested data with new displacement module
+
+- tested how data looks when taken going upstairs
+
+  
 
 ### Day 6 - 21/7
 
