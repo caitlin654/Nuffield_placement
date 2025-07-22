@@ -55,11 +55,8 @@ for loops in range(0,len(x)):
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
 ## SL7 To Do
-- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. (specific skills and qualities)
-- [ ]  add error logs back in
-- [ ]  complete outcome 3 & 6
-- [ ]  finish gantt chart
-- [ ]  
+- [ ] complete outcome 3 & 6
+- [ ] finish gantt chart
 
 
 ## Project log
@@ -77,15 +74,17 @@ poster and report due 31/8
   
 - [ ] further plan for report and poster (diagram of micro:bit)(find font)(start proper report outline)
 
-- [ ] add errors logs to previous project logs
+- [ ] finish SL7 outcome 3 and start outcome 7
 
-- [ ] create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities.
+  
 
-- [ ] finish SL7 booklet(outcome 3 & 6)
+- made Gantt chart for project
 
-- made gantt chart for project
+- completed further SL7 work
 
-- completed SL7 work
+- added error logs back in to README.md
+
+- wrote a Personal Development Plan
 
 ### Day 6 - 21/7
 
