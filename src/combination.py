@@ -5,8 +5,8 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
-    # file_path = r'../data/walking5.csv'
+    # file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
+    file_path = r'../data/upstairnoswing.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -53,27 +53,23 @@ def countstep(max, mag):
         if boo[loops] == "True" and boo[loops-1] == "False":
             steps = steps + 1
             over.append(mag[loops])
-    return steps
+    return steps, over
 
 def getdisplacement(readingx, readingy):
-    velx = 0
-    vely = 0
-    accx = 0
-    accy = 0
-    dispx = 0
-    dispy = 0
     disp = 0
     time = 0.1
     t = 0
+    magd = 0.0
+    vel = 0.0
 
     for loops in range(0, len(readingx)):
-        accx = (readingx[loops]/1000) * 9.8  # converting from mg to g to ms-2
-        accy = (readingy[loops]/1000) * 9.8
-        velx = velx + (accx)*time
-        vely = vely + (accy)*time
-        dispx = dispx + ((velx*time) + (0.5 * accx * (time**2)))
-        dispy = dispy + ((velx*time) + (0.5 * accy * (time**2)))
-        disp = ((dispy**2)+(dispx**2))**0.5
+        magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
+        magd = (magd/1000)*9.8
+        print(magd)
+
+        vel = (magd*time)
+        disp = disp + (vel*time)
+
         t = t + time
 
     disp = round(disp, 2)
@@ -112,21 +108,21 @@ def distance(ay, ax):
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 minimum, maximum = findminmax(mag)
-steps = countstep(maximum, mag)
+steps, over = countstep(maximum, mag)
 disp, t = getdisplacement(readingx, readingy)
 dist, tt = distance(readingy, readingx)
 
 # outputs
 root = tk.Tk()
-root.geometry("500x250")
+root.geometry("500x350")
 text_widget = tk.Text(root, wrap='word', height=20, width=80,
-                      font='serif', bg="#b9cded", fg="#3b3e45")
+                      font='serif', bg="#c7e3c1", fg="#3b3e45")
 text_widget.insert(tk.END, "Displacement: " + str(disp)+" meters in " + str(tt)
                    + " seconds \n")
 text_widget.insert(tk.END, "Distance: " + str(dist) + " meters in " + str(tt)
                    + " seconds \n")
-text_widget.insert(tk.END, "Steps: " + str(steps) + "\n")
-# text_widget.insert(tk.END, "Max: " + str(maximum) +"\n")
+text_widget.insert(tk.END, "Steps: " + str(steps) + "\n\n")
+text_widget.insert(tk.END, "Max: " + str(maximum) + "\n")
+text_widget.insert(tk.END, "Readings counted as steps: " + str(over) + "\n")
 text_widget.pack(expand=True, fill='both')
 root.mainloop()
-
