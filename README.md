@@ -77,12 +77,6 @@ poster and report due 31/8
 
 - [ ] finish SL7 outcome 3 and start outcome 7
 
-- [ ] collect and niceify graphs from steps(up and down)
-
-- [ ] update results for other files in imgs(swing(0.5) and no swing(0.75))
-
-  
-
 - made Gantt chart for project
 
 - completed further SL7 work
@@ -98,6 +92,10 @@ poster and report due 31/8
 - collected and tested data with new displacement module
 
 - tested how data looks when taken going upstairs
+
+- made graphs for stairs data sets
+
+- updated combi results for older data sets
 
   
 
@@ -184,15 +182,22 @@ graphs and results for no swing walk test - magnitude of acceleration is include
 
 
 
-![swing graphs](./imgs/SWINGGRAPHS.png) 
-<img src="./imgs/swing_newresults.png" width="250" height="175">  
+![swing graphs](./imgs/SWINGGRAPHS.png)  
+<img src="./imgs/swing_newresults.png" width="250" height="175">   
 
 graphs and results for arm swing test - magnitude of acceleration is still very similar to y axis, but now slightly different due to swing (0.5)
 
+
+
+![swing graphs](./imgs/downstair_noswing_graphs.png)     
+
 <img src="./imgs/upstairnoswing_results.png" width="250" height="175"> 
 
-
 results from combination.py for climbing up stairs with no arm swing(0.75)
+
+
+
+![swing graphs](./imgs/upstair_noswing_graphs.png) 
 
 <img src="./imgs/downstairnoswing_results.png" width="250" height="175"> 
 
