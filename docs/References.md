@@ -50,4 +50,4 @@ https://makecode.microbit.org/reference/input/set-accelerometer-range
 
 https://microbit-challenges.readthedocs.io/en/latest/tutorials/accelerometer.html
 
-intro to the accelerometer(diagram)
+intro to the accelerometer(diagram)*check how to cite* 
