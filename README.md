@@ -58,7 +58,7 @@ for loops in range(0,len(x)):
 - [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. (specific skills and qualities)
 - [ ]  add error logs back in
 - [ ]  complete outcome 3 & 6
-- [ ]  gantt chart
+- [ ]  finish gantt chart
 - [ ]  
 
 
@@ -74,11 +74,18 @@ poster and report due 31/8
 
 - [ ] try to look at distance vs displacement
   -  [ ] revise difference and see what needs to be done to collect them 
+  
 - [ ] further plan for report and poster (diagram of micro:bit)(find font)(start proper report outline)
 
 - [ ] add errors logs to previous project logs
+
 - [ ] create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities.
-- [ ]  finish SL7 booklet(outcome 3 & 6)
+
+- [ ] finish SL7 booklet(outcome 3 & 6)
+
+- made gantt chart for project
+
+- completed SL7 work
 
 ### Day 6 - 21/7
 
@@ -87,13 +94,13 @@ poster and report due 31/8
 - collected data with arm swing to compare to data with no arm swing, made graphs(see images) **no arm swing gives better results for graphs, and more reliable step counting** 
 - made a big program of both minimumparallel.py and displacementtest.py 
 - read more articles for references 
-- tried to set the range of the accelerometer again, *still doesn't work* 
+- tried to set the range of the accelerometer again, *still doesn't work(attribute error)*
 - started stem leader booklet
 
 ### Day 5 - 18/7
 
 
-- tried to fix error in displacement calculating program *add*
+- tried to fix error in displacement calculating program *distance was calculated correctly, but displacement didn't, however because it was close to true on one data set, i didn't notice* 
 
 - updated graph so that it uses magnitude of three axis, and then counts steps using percentage instead of chosen number 
 
@@ -101,7 +108,7 @@ poster and report due 31/8
 
 - tested pedometer with no swing of the arm (just held still) **no swing seems to give better results, especially on the y axis**
 
-- started trying to get distance as well as displacement *add*
+- started trying to get distance as well as displacement 
 
 - made tidy graphs(labels,times) with no_swing data (see images)
 
@@ -126,7 +133,7 @@ poster and report due 31/8
 
 - did mock walking(swinging arm ) tests with larger arrays, made graphs and counted steps(graph peaks) with minimumparallel.py 
 
-- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used , and changed whether int is being added to or taken away from**) *add* 
+- tested the effect of orientation of the usability of graphs produced by data (*best ones to use are logo facing left/right, but right will use maxes and left will use mins, both will use x axis(**edit parameter passing in minimumparalel.py depending on what one is used , and changed whether int is being added to or taken away from**) *realised minparalle wasn't efficient, and ended up switching so it used magnitude to fix this* 
 
   
 
@@ -134,9 +141,9 @@ poster and report due 31/8
 
 
 - got the micro:bit to make a file
-- wrote positions into the file **must be strs** *add* 
+- wrote positions into the file **must be strs** *file writing wasn't working because i'd forgotten how to do it*  
 - exported file to new program and printed as a mu graph
-- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didn't work, cos midpoints were used)*add* 
+- made program to find min and max of each axis from the data file, find the midpoint and then count every time the midpoint was met (didn't work, cos midpoints were used)*logic error in how i was trying to count the steps*  
 - converted csv files with the data to excel spreadsheet 
 - increased range of data being taken in, and tested for error caused by this
 
