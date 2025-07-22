@@ -66,41 +66,41 @@ end of last week - presentation
 someone said something about a blog?
 
 poster and report due 31/8
+### Day 9 - 24/7
+- aileen visiting in morning
+- computer visit
 
 ### Day 8 - 23/7
 
-- [ ] start report
+- [ ] test combination.py more (accuracy) 
+
 - [ ] decide what more to do with accelerometer(positioning)
 
-### Day 7 - 22/7
+- [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have
+
+  
+
+- [ ] continue report
 
 - [ ] finish SL7 outcome 3 and start outcome 6
 
-  
+- [ ] check crest report requirements 
+
+- [ ] do more of the Gantt 
+
+### Day 7 - 22/7
 
 - made Gantt chart for project
-
 - completed further SL7 work
-
 - added error logs back in to README.md
-
 - wrote a Personal Development Plan
-
 - did further poster design (added axis diagram)
-
 - revised distance vs displacement and implemented new plan *think it works now*  
-
 - collected and tested data with new displacement module
-
 - tested how data looks when taken going upstairs
-
 - made graphs for stairs data sets
-
 - updated combi.py results for older data sets
-
 - made further plans for reports, started writeup
-
-  
 
 ### Day 6 - 21/7
 
