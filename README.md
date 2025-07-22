@@ -56,7 +56,7 @@ for loops in range(0,len(x)):
 
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
-- [ ] finish gantt chart
+- [ ] finish Gantt chart
 
 
 ## Project log
@@ -72,7 +72,7 @@ poster and report due 31/8
 - [ ] try to look at distance vs displacement
   -  [ ] revise difference and see what needs to be done to collect them 
   
-- [ ] further plan for report and poster (diagram of micro:bit)(find font)(start proper report outline)
+- [ ] further plan for report (start proper report outline)
 
 - [ ] finish SL7 outcome 3 and start outcome 7
 
@@ -85,6 +85,8 @@ poster and report due 31/8
 - added error logs back in to README.md
 
 - wrote a Personal Development Plan
+
+- did further poster design (added axis diagram)
 
 ### Day 6 - 21/7
 
