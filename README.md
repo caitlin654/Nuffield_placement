@@ -76,11 +76,11 @@ poster and report due 31/8
 
 - [ ] decide what more to do with accelerometer(positioning)
 
-- [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have
+- [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have(see bold text in report)
 
   
 
-- [ ] continue report
+- [ ] continue report (try and format images)
 
 - [ ] finish SL7 outcome 3 and start outcome 6
 
