@@ -65,7 +65,6 @@ def getdisplacement(readingx, readingy):
     for loops in range(0, len(readingx)):
         magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
         magd = (magd/1000)*9.8
-        print(magd)
 
         vel = (magd*time)
         disp = disp + (vel*time)
@@ -122,7 +121,7 @@ text_widget.insert(tk.END, "Displacement: " + str(disp)+" meters in " + str(tt)
 text_widget.insert(tk.END, "Distance: " + str(dist) + " meters in " + str(tt)
                    + " seconds \n")
 text_widget.insert(tk.END, "Steps: " + str(steps) + "\n\n")
-text_widget.insert(tk.END, "Max: " + str(maximum) + "\n")
+text_widget.insert(tk.END, "Max: " + str(maximum) + " mg \n")
 text_widget.insert(tk.END, "Readings counted as steps: " + str(over) + "\n")
 text_widget.pack(expand=True, fill='both')
 root.mainloop()
