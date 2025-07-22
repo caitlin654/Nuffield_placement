@@ -55,9 +55,11 @@ for loops in range(0,len(x)):
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
 ## SL7 To Do
-- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. 
+- [ ]  create a Personal Development Plan, using a format of your choice, which explains how you will improve your leadership skills and qualities. (specific skills and qualities)
 - [ ]  add error logs back in
 - [ ]  complete outcome 3 & 6
+- [ ]  gantt chart
+- [ ]  
 
 
 ## Project log
