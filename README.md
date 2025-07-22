@@ -79,6 +79,8 @@ poster and report due 31/8
 
 - [ ] collect and niceify graphs from steps(up and down)
 
+- [ ] update results for other files in imgs(swing(0.5) and no swing(0.75))
+
   
 
 - made Gantt chart for project
@@ -172,20 +174,27 @@ poster and report due 31/8
 - got info in all three axis
 
 ## Images
-![fake walking acceleration graphs](./imgs/walking1graphs.png)  
-![ minparallel results for above graph](./imgs/minparallel_results_walking1.png) 
-
-graphs and results from fake walking (arm swing), first test for graphs and minimumparallel.py (results and graph are from an old version of minimumparallel.py) 
-
-
 
 ![no swing graphs](./imgs/no_swing_graphs.png)  
-![minparallel no swing results](./imgs/minimumparallelresults_noswing.png)  
-
-graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph 
+<img src="./imgs/noswing_newresults.png" width="250" height="175">  
 
 
 
-![swing graphs](./imgs/SWINGGRAPHS.png)
-![minparallel swing results](./imgs/minimumparallel_swing.png) 
-graphs and results for arm swing test - magnitude of accleration is still very similar to y axis, but now slightly diffrent due to swing
+graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph (0.75)
+
+
+
+![swing graphs](./imgs/SWINGGRAPHS.png) 
+<img src="./imgs/swing_newresults.png" width="250" height="175">  
+
+graphs and results for arm swing test - magnitude of acceleration is still very similar to y axis, but now slightly different due to swing (0.5)
+
+<img src="./imgs/upstairnoswing_results.png" width="250" height="175"> 
+
+
+results from combination.py for climbing up stairs with no arm swing(0.75)
+
+<img src="./imgs/downstairnoswing_results.png" width="250" height="175"> 
+
+results from combination.py for climbing down stairs with no arm swing (0.6)
+
