@@ -6,7 +6,7 @@ def getdisplacement(readingx, readingy, readingz):
     vel = 0.0
 
     for loops in range(0, len(readingx)):
-        magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
+        magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5 # change
         magd = (magd/1000)*9.8
 
         vel = (magd*time)
@@ -24,6 +24,8 @@ def getdisplacement(readingx, readingy, readingz):
 def distance(ay, ax, az):
     dist = 0
     tt = 0
+    xold = 0
+    yold = 0
     for loops in range(0, len(ay)):
         changex = 0
         changey = 0
@@ -37,8 +39,11 @@ def distance(ay, ax, az):
 
         changex = (velx * time)
         changey = (vely * time)
-        changedist = ((changex**2) + (changey**2))**0.5
+        changedist = ((changex-xold)**2) + (changey-yold)**2))**0.5 # distance forula using previos values
         dist = dist + changedist
+
+        xold = ax[loops]
+        yold = ay[loops]
         tt = tt + time
 
     dist = round(dist, 2)
@@ -46,7 +51,8 @@ def distance(ay, ax, az):
 
     return dist, tt
 
-#intial velocity = u = v - at (a = ms-2) a=reading t = 0.1?
+#intial velocity = u = v - at (a = ms-2) a=reading t = 0.1
+#if t cant be a running total, think the same needs to be for v
 #final velocity = v = u + at
 #displacemnt = s = ut + (1/2)at²
 #distance = st (s = abs(v))

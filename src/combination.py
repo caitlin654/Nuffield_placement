@@ -5,7 +5,8 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/NOSWING2.csv'
+    # file_path = r'../data/NOSWING2.csv'
+    file_path = r'C:/Users/Summer School - 1/mu_code/test-straightline.csv'
     entirefile = open(file_path, "r")
     #FRONT = 55 BACK = 55
     linesarray = entirefile.read().splitlines()
@@ -66,7 +67,7 @@ def getdisplacement(readingx, readingy, readingz):
         magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
         magd = (magd/1000)*9.8
 
-        vel = (magd*time)
+        vel = 0 # (magd*time)
         dispx = (vel * time) + (0.5 * magd * (time)**2)
         disp = disp + dispx
 
@@ -81,22 +82,28 @@ def getdisplacement(readingx, readingy, readingz):
 def distance(ay, ax, az):
     dist = 0
     tt = 0
+    xold = 0
+    yold = 0
+    velx = 0
+    vely = 0
     for loops in range(0, len(ay)):
-        changex = 0
-        changey = 0
-        changedist = 0
         time = 0.1
 
         accx = ((ax[loops]/1000) * 9.8)  # converting from mg to g to ms-2
         accy = ((ay[loops]/1000) * 9.8)
-        velx = abs((accx)*time)
-        vely = abs((accy)*time)
 
-        changex = (velx * time)
-        changey = (vely * time)
-        changedist = ((changex**2) + (changey**2))**0.5
+        changex = (velx * time) + (0.5 * accx *(time)**2)
+        changey = (vely * time) + (0.5 * accy *(time)**2)
+        changedist = ((changex - xold)**2 + (changey- yold)**2)**0.5
         dist = dist + changedist
+
+        xold = (ax[loops])
+        yold = (ay[loops])
+
         tt = tt + time
+
+        velx = (accx)*time
+        vely = (accy)*time
 
     dist = round(dist, 2)
     tt = round(tt, 1)
