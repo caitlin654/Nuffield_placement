@@ -55,7 +55,7 @@ def countstep(max, mag):
             over.append(mag[loops])
     return steps, over
 
-def getdisplacement(readingx, readingy):
+def getdisplacement(readingx, readingy, readingz):
     disp = 0
     time = 0.1
     t = 0
@@ -67,7 +67,8 @@ def getdisplacement(readingx, readingy):
         magd = (magd/1000)*9.8
 
         vel = (magd*time)
-        disp = disp + (vel*time)
+        dispx = (vel * time) + (0.5 * magd * (time)**2)
+        disp = disp + dispx
 
         t = t + time
 
@@ -77,7 +78,7 @@ def getdisplacement(readingx, readingy):
 
     return disp, t
 
-def distance(ay, ax):
+def distance(ay, ax, az):
     dist = 0
     tt = 0
     for loops in range(0, len(ay)):
@@ -88,11 +89,11 @@ def distance(ay, ax):
 
         accx = ((ax[loops]/1000) * 9.8)  # converting from mg to g to ms-2
         accy = ((ay[loops]/1000) * 9.8)
-        velx = (accx)*time
-        vely = (accy)*time
+        velx = abs((accx)*time)
+        vely = abs((accy)*time)
 
-        changex = abs((velx * time) + (0.5 * accx * (time)**2))
-        changey = abs((vely * time) + (0.5 * accy * (time)**2))
+        changex = (velx * time)
+        changey = (vely * time)
         changedist = ((changex**2) + (changey**2))**0.5
         dist = dist + changedist
         tt = tt + time
@@ -108,8 +109,8 @@ readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 minimum, maximum = findminmax(mag)
 steps, over = countstep(maximum, mag)
-disp, t = getdisplacement(readingx, readingy)
-dist, tt = distance(readingy, readingx)
+disp, t = getdisplacement(readingx, readingy, readingz)
+dist, tt = distance(readingy, readingx, readingz)
 
 # outputs
 root = tk.Tk()
