@@ -68,10 +68,15 @@ end of last week - presentation
 
 someone said something about a blog?
 
-poster and report due 31/8
+poster and report(+Sl7 stuff) due 31/8
+
+crest due asap after report done(check current report fits requirement)
+
 ### Day 9 - 24/7
 - Aileen visiting in morning
 - computer visit
+
+- [ ] do more SL7 work (outcomes 3 & 6)
 
 ### Day 8 - 23/7
 
@@ -83,19 +88,17 @@ poster and report due 31/8
 
 - [ ] add internal commentary 
 
-  
-
-- [ ] continue report (try and format images)
-
-- [ ] start SL7 outcome 3 and outcome 6
-
-- [ ] do more of the Gantt 
+- [ ] make list of attachment and stuff needed for report, SL7 and crest
 
   
 
 - updated SL7 doc with feedback given 
 
+- Updated Gantt chart
+
 - formatted image section
+
+- did more work on the report
 
 ### Day 7 - 22/7
 
