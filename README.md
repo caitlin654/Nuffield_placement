@@ -80,12 +80,17 @@ crest due asap after report done(check current report fits requirement)
 
 - [ ] do more SL7 work (outcomes 3 & 6)
 
+- [ ] read and organize new refs
+
 ### Day 8 - 23/7
 
-- [ ] test combination.py more (accuracy) 
--  [ ] try different placing on body, and if successful get more data for stairs, walking
+- [ ] test combination.py more (accuracy) (use measuring tape and do placement/tance)
+
+-  [ ]  get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
 
 - [ ] add internal commentary 
+
+- [ ] update report with findings on swings/positions
 
   
 
@@ -98,6 +103,12 @@ crest due asap after report done(check current report fits requirement)
 - did more work on the report
 
 - updated list of report/SL7/crest attachments
+
+- tested different positions on the body **handheld no swing works best, other positions would likely work, however they need to be close to stationary during movement for most accuracy** 
+
+- **hand held (regardless of swing or not) works best** 
+
+- updated images with 4 new graphs and results obtained from positions texting and swing testing
 
 ### Day 7 - 22/7
 
@@ -195,12 +206,22 @@ crest due asap after report done(check current report fits requirement)
 
 graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph (0.75)
 
+### No arms swing 2
+![no swing graphs](./imgs/noswing2_graphs.png)  
+<img src="./imgs/NOSWING2_RESULTS.png" width="250" height="175">  
+(0.75)
+
 
 ### Arm swing graphs
 ![swing graphs](./imgs/SWINGGRAPHS.png)  
 <img src="./imgs/swing_newresults.png" width="250" height="175">   
 
 graphs and results for arm swing test - magnitude of acceleration is still very similar to y axis, but now slightly different due to swing (0.5)
+
+### Arm swing 2
+![no swing graphs](./imgs/SWING2_GRAPHS.png)  
+<img src="./imgs/SWING2_RESULTS.png" width="250" height="175">  
+(0.75)
 
 
 ### Downstairs no arm swing
@@ -219,3 +240,12 @@ results from combination.py for climbing up stairs with no arm swing(0.75)
 
 results from combination.py for climbing down stairs with no arm swing (0.6)
 
+### Back Pocket
+![no swing graphs](./imgs/backpocket_graphs.png)  
+<img src="./imgs/back_results.png" width="250" height="175">  
+(0.55)
+
+### Front Pocket
+![no swing graphs](./imgs/frontpocket_graphs.png)  
+<img src="./imgs/front_results.png" width="250" height="175">  
+(0.55)
