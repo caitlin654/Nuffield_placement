@@ -82,16 +82,17 @@ crest due asap after report done(check current report fits requirement)
 
 - [ ] read and organize new refs
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
+- [ ] add internal commentry to combination
+
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
 
 ### Day 8 - 23/7
 
-- [ ] test combination.py more (accuracy) (use measuring tape and do placement/tance)
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
+
 - [ ] update report with findings on swings/positions
-- [ ] add internal commentary to combination
 
-
+  
 
 - updated SL7 doc with feedback given 
 - Updated Gantt chart
@@ -103,6 +104,8 @@ crest due asap after report done(check current report fits requirement)
 - updated images with 4 new graphs and results obtained from positions texting and swing testing
 
 - added internal commentary to arraytest.py
+
+- tested combination.py more (accuracy) (used measuring tape and did displacement/distance comparison) *distance and displacement seems to be a couple of meters off each time, but displacement more so*
 
 ### Day 7 - 22/7
 
