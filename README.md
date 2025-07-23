@@ -74,41 +74,41 @@ poster and report(+Sl7 stuff) due 31/8
 
 crest due asap after report done(check current report fits requirement)
 
+### Day 10 - 25/7
+
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
+
 ### Day 9 - 24/7
-- Aileen visiting in morning
+- Aileen visiting in morning(12)
 
-- computer visit
+- computer visit (1-4)
 
-- [ ] do more SL7 work (outcomes 3 & 6)
+  
+
+- [ ] update report with findings on swings/positions
 
 - [ ] read and organize new refs
 
 - [ ] add internal commentary to combination
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
+  
+
+- [ ] try to fix combination.py
 
   
 
 ### Day 8 - 23/7
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
-
-- [ ] update report with findings on swings/positions
-
-  
-
 - updated SL7 doc with feedback given 
+
 - Updated Gantt chart
 - formatted image section
 - did more work on the report
 - updated list of report/SL7/crest attachments
-- tested different positions on the body **handheld no swing works best, other positions would likely work, however they need to be close to stationary during movement for most accuracy** 
-- **hand held (regardless of swing or not) works best** 
+- tested different positions on the body **handheld no swing works best, other positions would likely work, however they need to be close to stationary during movement for most accuracy** ,**hand held (regardless of swing or not) works best** 
 - updated images with 4 new graphs and results obtained from positions texting and swing testing
-
 - added internal commentary to arraytest.py
-
-- tested combination.py more (accuracy) (used measuring tape and did displacement/distance comparison) *distance and displacement seems to be a couple of meters off each time, but displacment more so* *think its because of logic errors in regards to v and u*
+- tested combination.py more (accuracy) (used measuring tape and did displacement/distance comparison) *distance and displacement seems to be a couple of meters off each time, but displacement more so* *think its because of logic errors in regards to v and u* 
 
 ### Day 7 - 22/7
 
