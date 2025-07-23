@@ -54,18 +54,9 @@ for loops in range(0,len(x)):
 
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
-## Feedback
-
-You can remove points as you address them or feel they are not relevant.
-
-* You can create a Gantt chart using [mermaid diagrams](https://docs.mermaidchart.com/mermaid-oss/syntax/gantt.html#gantt-diagrams) and include it in the markdown.
-* For your [images section](#images) it would be good to add level 3 headings to group.
-* Can we rename `Revised Blank Report Template (STEM Leader 7 version).docx`, the file name should include your name and a shortened version of your project title so rename to something like that.
-
 ## SL7 To Do
-
 - [ ] complete outcome 3 & 6
-- [ ] finish Gantt chart 
+- [ ] finish Gantt chart
 
 
 ## Project log
