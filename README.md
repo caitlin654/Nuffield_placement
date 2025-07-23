@@ -56,7 +56,12 @@ for loops in range(0,len(x)):
 
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
+
 - [ ] finish Gantt chart
+
+## Feedback
+
+- [ ] Can we rename `Revised Blank Report Template (STEM Leader 7 version).docx`, the file name 	should include your name and a shortened version of your project title so rename to something like 	that.
 
 
 ## Project log
@@ -77,6 +82,10 @@ poster and report due 31/8
 - [ ] decide what more to do with accelerometer(positioning)
 
 - [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have(see bold text in report)
+
+- [ ] format images section with headings
+
+- [ ] rename stem leader doc
 
   
 
