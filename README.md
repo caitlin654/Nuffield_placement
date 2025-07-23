@@ -82,33 +82,27 @@ crest due asap after report done(check current report fits requirement)
 
 - [ ] read and organize new refs
 
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
+
 ### Day 8 - 23/7
 
 - [ ] test combination.py more (accuracy) (use measuring tape and do placement/tance)
-
--  [ ]  get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
-
-- [ ] add internal commentary 
-
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)
 - [ ] update report with findings on swings/positions
+- [ ] add internal commentary to combination
 
-  
+
 
 - updated SL7 doc with feedback given 
-
 - Updated Gantt chart
-
 - formatted image section
-
 - did more work on the report
-
 - updated list of report/SL7/crest attachments
-
 - tested different positions on the body **handheld no swing works best, other positions would likely work, however they need to be close to stationary during movement for most accuracy** 
-
 - **hand held (regardless of swing or not) works best** 
-
 - updated images with 4 new graphs and results obtained from positions texting and swing testing
+
+- added internal commentary to arraytest.py
 
 ### Day 7 - 22/7
 
