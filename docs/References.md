@@ -38,6 +38,12 @@ Tudor-Locke, Catrine, and David R. Bassett Jr. "How many steps/day are enough? P
 
 
 
+https://www.nature.com/articles/s41598-024-62330-6
+
+https://journals.lww.com/acsm-msse/fulltext/2012/04000/evaluation_of_activity_monitors_in_controlled_and.21.aspx
+
+
+
 ## Videos
 
 * [Pedometer algorithms explained](https://www.youtube.com/watch?v=cpwrwPTqMac)
