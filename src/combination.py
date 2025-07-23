@@ -5,9 +5,9 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    # file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
     file_path = r'../data/swing.csv'
     entirefile = open(file_path, "r")
+    #FRONT = 55 BACK = 55
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
@@ -46,7 +46,7 @@ def countstep(max, mag):
     over = []
     boo = []
     for loops in range(0, len(mag)):
-        if mag[loops] > (max * 0.5):
+        if mag[loops] > (max * 0.75):
             boo.append("True")
         else:
             boo.append("False")

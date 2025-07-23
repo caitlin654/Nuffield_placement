@@ -3,7 +3,7 @@ import time
 
 time.sleep(1)
 display.show(Image.HEART)
-time.sleep(15)
+time.sleep(4)
 display.clear()
 
 positions = []
