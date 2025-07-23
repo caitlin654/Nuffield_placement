@@ -70,7 +70,7 @@ someone said something about a blog?
 
 poster and report due 31/8
 ### Day 9 - 24/7
-- aileen visiting in morning
+- Aileen visiting in morning
 - computer visit
 
 ### Day 8 - 23/7
@@ -81,19 +81,21 @@ poster and report due 31/8
 
 - [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have(see bold text in report)
 
-  
+- [ ] add internal commentary 
 
-- [ ] format images section with headings
+  
 
 - [ ] continue report (try and format images)
 
-- [ ] finish SL7 outcome 3 and start outcome 6
-
-- [ ] check crest report requirements 
+- [ ] start SL7 outcome 3 and outcome 6
 
 - [ ] do more of the Gantt 
 
+  
+
 - updated SL7 doc with feedback given 
+
+- formatted image section
 
 ### Day 7 - 22/7
 
@@ -183,6 +185,7 @@ poster and report due 31/8
 
 ## Images
 
+### No arm swing
 ![no swing graphs](./imgs/no_swing_graphs.png)  
 <img src="./imgs/noswing_newresults.png" width="250" height="175">  
 
@@ -191,14 +194,14 @@ poster and report due 31/8
 graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph (0.75)
 
 
-
+### Arm swing graphs
 ![swing graphs](./imgs/SWINGGRAPHS.png)  
 <img src="./imgs/swing_newresults.png" width="250" height="175">   
 
 graphs and results for arm swing test - magnitude of acceleration is still very similar to y axis, but now slightly different due to swing (0.5)
 
 
-
+### Downstairs no arm swing
 ![swing graphs](./imgs/downstair_noswing_graphs.png)     
 
 <img src="./imgs/upstairnoswing_results.png" width="250" height="175"> 
@@ -207,6 +210,7 @@ results from combination.py for climbing up stairs with no arm swing(0.75)
 
 
 
+### Upstairs no swing
 ![swing graphs](./imgs/upstair_noswing_graphs.png) 
 
 <img src="./imgs/downstairnoswing_results.png" width="250" height="175"> 
