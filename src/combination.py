@@ -5,7 +5,7 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/swing.csv'
+    file_path = r'../data/NOSWING2.csv'
     entirefile = open(file_path, "r")
     #FRONT = 55 BACK = 55
     linesarray = entirefile.read().splitlines()
