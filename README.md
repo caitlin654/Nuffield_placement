@@ -54,6 +54,8 @@ for loops in range(0,len(x)):
 
 - [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
+- [ ] tell difference between people walking
+
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
 
@@ -81,14 +83,9 @@ crest due asap after report done(check current report fits requirement)
 ### Day 8 - 23/7
 
 - [ ] test combination.py more (accuracy) 
-
-- [ ] decide what more to do with accelerometer(positioning)
-
-- [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have(see bold text in report)
+-  [ ] try different placing on body, and if successful get more data for stairs, walking
 
 - [ ] add internal commentary 
-
-- [ ] make list of attachment and stuff needed for report, SL7 and crest
 
   
 
@@ -99,6 +96,8 @@ crest due asap after report done(check current report fits requirement)
 - formatted image section
 
 - did more work on the report
+
+- updated list of report/SL7/crest attachments
 
 ### Day 7 - 22/7
 
