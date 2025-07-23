@@ -12,7 +12,11 @@ while True:
         # b = Image('00900:00900:90909:09990:00900:')
         b = Image('00000:00000:99999:00000:00000')
         display.show(b)
+    elif positionx == 0 :
+        c = Image('00000:00000:00900:00000:00000')
+        display.show(c)
 
-
+        with open('testfall.csv', 'w') as file:
+            file.write("Yes")
 
 
