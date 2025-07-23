@@ -76,15 +76,18 @@ crest due asap after report done(check current report fits requirement)
 
 ### Day 9 - 24/7
 - Aileen visiting in morning
+
 - computer visit
 
 - [ ] do more SL7 work (outcomes 3 & 6)
 
 - [ ] read and organize new refs
 
-- [ ] add internal commentry to combination
+- [ ] add internal commentary to combination
 
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
+
+  
 
 ### Day 8 - 23/7
 
@@ -105,7 +108,7 @@ crest due asap after report done(check current report fits requirement)
 
 - added internal commentary to arraytest.py
 
-- tested combination.py more (accuracy) (used measuring tape and did displacement/distance comparison) *distance and displacement seems to be a couple of meters off each time, but displacement more so*
+- tested combination.py more (accuracy) (used measuring tape and did displacement/distance comparison) *distance and displacement seems to be a couple of meters off each time, but displacment more so* *think its because of logic errors in regards to v and u*
 
 ### Day 7 - 22/7
 
