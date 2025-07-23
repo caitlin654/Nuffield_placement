@@ -59,9 +59,7 @@ for loops in range(0,len(x)):
 
 - [ ] finish Gantt chart
 
-## Feedback
 
-- [ ] Can we rename `Revised Blank Report Template (STEM Leader 7 version).docx`, the file name 	should include your name and a shortened version of your project title so rename to something like 	that.
 
 
 ## Project log
@@ -83,11 +81,9 @@ poster and report due 31/8
 
 - [ ] have a look at abstract and see if its true/ what evidence is needed to back it up that i don't already have(see bold text in report)
 
-- [ ] format images section with headings
-
-- [ ] rename stem leader doc
-
   
+
+- [ ] format images section with headings
 
 - [ ] continue report (try and format images)
 
@@ -96,6 +92,8 @@ poster and report due 31/8
 - [ ] check crest report requirements 
 
 - [ ] do more of the Gantt 
+
+- updated SL7 doc with feedback given 
 
 ### Day 7 - 22/7
 
