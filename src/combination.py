@@ -78,7 +78,7 @@ dist, tt = distance(steps, readingy)
 
 def getInformation():
     stride1 = stride.get()
-    dist = stride1 * steps)
+    dist = (float(stride1) * steps)
     show_information.config(text="Distance: " + str(dist) + " meters in " + str(tt)
                             + " seconds \n" + "Steps: " + str(steps))
 
@@ -91,7 +91,7 @@ frame = tk.Frame(bg="#c7e3c1")
 info_frame = tk.Frame(window)
 info_frame.grid(row=1, column=1, columnspan=3, padx=100, pady=15, )
 
-stride_label = tk.Label(info_frame, text="Enter Stride Length: ")
+stride_label = tk.Label(info_frame, text="Enter Stride Length (m) ")
 stride_label.grid(row=0, column=0, padx=5, pady=5)
 
 stride = tk.Entry(info_frame)
