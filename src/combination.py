@@ -5,10 +5,9 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    # file_path = r'../data/NOSWING2.csv'
-    file_path = r'C:/Users/Summer School - 1/mu_code/test-straightline.csv'
+    file_path = r'../data/NOSWING2.csv'
+    # file_path = r'C:/Users/Summer School - 1/mu_code/test-straightline.csv'
     entirefile = open(file_path, "r")
-    #FRONT = 55 BACK = 55
     linesarray = entirefile.read().splitlines()
     entirefile.close()
 
@@ -56,80 +55,52 @@ def countstep(max, mag):
             over.append(mag[loops])
     return steps, over
 
-def getdisplacement(readingx, readingy, readingz):
-    disp = 0
-    time = 0.1
-    t = 0
-    magd = 0.0
-    vel = 0.0
-
-    for loops in range(0, len(readingx)):
-        magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
-        magd = (magd/1000)*9.8
-
-        vel = 0 # (magd*time)
-        dispx = (vel * time) + (0.5 * magd * (time)**2)
-        disp = disp + dispx
-
-        t = t + time
-
-    disp = round(disp, 2)
-    disp = abs(disp)
-    t = round(t, 1)
-
-    return disp, t
-
-def distance(ay, ax, az):
+def distance(steps, ay):
     dist = 0
-    tt = 0
-    xold = 0
-    yold = 0
-    velx = 0
-    vely = 0
-    for loops in range(0, len(ay)):
-        time = 0.1
+    time = 0.1 * len(ay)
 
-        accx = ((ax[loops]/1000) * 9.8)  # converting from mg to g to ms-2
-        accy = ((ay[loops]/1000) * 9.8)
-
-        changex = (velx * time) + (0.5 * accx *(time)**2)
-        changey = (vely * time) + (0.5 * accy *(time)**2)
-        changedist = ((changex - xold)**2 + (changey- yold)**2)**0.5
-        dist = dist + changedist
-
-        xold = (ax[loops])
-        yold = (ay[loops])
-
-        tt = tt + time
-
-        velx = (accx)*time
-        vely = (accy)*time
+    stride = 0
+    dist = stride * steps
 
     dist = round(dist, 2)
-    tt = round(tt, 1)
+    time = round(time, 1)
 
-    return dist, tt
-
+    return dist, time
 
 # top level
 readingx, readingy, readingz = readin()
 mag = getmag(readingx, readingy, readingz)
 minimum, maximum = findminmax(mag)
 steps, over = countstep(maximum, mag)
-disp, t = getdisplacement(readingx, readingy, readingz)
-dist, tt = distance(readingy, readingx, readingz)
+dist, tt = distance(steps, readingy)
 
-# outputs
-root = tk.Tk()
-root.geometry("500x350")
-text_widget = tk.Text(root, wrap='word', height=20, width=80,
-                      font='serif', bg="#c7e3c1", fg="#3b3e45")
-text_widget.insert(tk.END, "Displacement: " + str(disp)+" meters in " + str(tt)
-                   + " seconds \n")
-text_widget.insert(tk.END, "Distance: " + str(dist) + " meters in " + str(tt)
-                   + " seconds \n")
-text_widget.insert(tk.END, "Steps: " + str(steps) + "\n\n")
-text_widget.insert(tk.END, "Max: " + str(maximum) + " mg \n")
-text_widget.insert(tk.END, "Readings counted as steps: " + str(over) + "\n")
-text_widget.pack(expand=True, fill='both')
-root.mainloop()
+#tkinter output
+
+def getInformation():
+    stride1 = stride.get()
+    dist = stride1 * steps)
+    show_information.config(text="Distance: " + str(dist) + " meters in " + str(tt)
+                            + " seconds \n" + "Steps: " + str(steps))
+
+window = tk.Tk()
+window.configure( bg="#c7e3c1")
+window.title("UI")
+window.geometry("500x350")
+frame = tk.Frame(bg="#c7e3c1")
+
+info_frame = tk.Frame(window)
+info_frame.grid(row=1, column=1, columnspan=3, padx=100, pady=15, )
+
+stride_label = tk.Label(info_frame, text="Enter Stride Length: ")
+stride_label.grid(row=0, column=0, padx=5, pady=5)
+
+stride = tk.Entry(info_frame)
+stride.grid(row=0, column=1, padx=5, pady=5)
+
+get_info = tk.Button(info_frame, text="Show output", command = getInformation)
+get_info.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
+
+show_information = tk.Label(font='serif', bg="#c7e3c1", fg="#3b3e45")
+show_information.grid(row=2, column=2, pady=7, padx=10)
+
+window.mainloop()
