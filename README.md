@@ -79,17 +79,20 @@ crest due asap after report done(check current report fits requirement)
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
 - [ ] update report with findings on swings/positions/ combination error and new distance calculation
 - [ ] read and organize new refs
-- [ ] add internal commentary to combination
 - [ ] get new readings and outputs(add old data sets ones)
+- [ ] try and see if there's a way to increase distance accuracy
+- [ ] add a window kill to the tkinter and style input window
 
 ### Day 9 - 24/7
 - Aileen visiting in morning(11-12)
 - computer visit (1-4)
+- added internal commentary to combination.py
 - updated gui for stride length
 - changed combination.py so that it calculates distance via stride length * steps
 - combination.py *doesn't work because as you change direction, the coord system rotates, meaning its now at an angle compared to the original coord, and so the distance is over estimated, therefore it will work when tested in a straight-line, but once tested on an actual walk, both distance and displacement will be wrong* 
 
 ``` python
+#old code, use in report to show what was being done before
 def getdisplacement(readingx, readingy, readingz):
     disp = 0
     time = 0.1
