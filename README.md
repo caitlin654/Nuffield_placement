@@ -79,13 +79,13 @@ crest due asap after report done(check current report fits requirement)
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
 
 ### Day 9 - 24/7
-- Aileen visiting in morning(12)
+- Aileen visiting in morning(11-12)
 
 - computer visit (1-4)
 
   
 
-- [ ] update report with findings on swings/positions
+- [ ] update report with findings on swings/positions/ combination error and new distance calulation
 
 - [ ] read and organize new refs
 
@@ -93,7 +93,64 @@ crest due asap after report done(check current report fits requirement)
 
   
 
-- [ ] try to fix combination.py
+- [ ] updated gui for stride length
+
+- changed combination.py so that it calculates distance via stride length * steps
+
+- combination.py *doesn't work because as you change direction, the coord system rotates, meaning its now at an angle compared to the original coord, and so the distance is over estimated, therefore it will work when tested in a straight-line, but once tested on an actual walk, both distance and displacement will be wrong* 
+
+``` python
+def getdisplacement(readingx, readingy, readingz):
+    disp = 0
+    time = 0.1
+    t = 0
+    magd = 0.0
+    vel = 0.0
+
+    for loops in range(0, len(readingx)):
+        magd = ((readingx[loops]**2) + (readingy[loops]**2))**0.5
+        magd = (magd/1000)*9.8
+
+        vel =  (magd*time)
+        dispx = (vel * time) 
+        disp = disp + dispx
+
+        t = t + time
+
+    disp = round(disp, 2)
+    disp = abs(disp)
+    t = round(t, 1)
+
+    return disp, t
+
+def distance(ay, ax, az):
+    dist = 0
+    tt = 0
+    xold = 0
+    yold = 0
+    velx = 0
+    vely = 0
+    for loops in range(0, len(ay)):
+        time = 0.1
+
+        accx = ((ax[loops]/1000) * 9.8)  # converting from mg to g to ms-2
+        accy = ((ay[loops]/1000) * 9.8)
+
+        changex = (velx * time) + (0.5 * accx *(time)**2)
+        changey = (vely * time) + (0.5 * accy *(time)**2)
+        changedist = ((changex)**2 + (changey)**2)**0.5
+        dist = dist + changedist
+
+        tt = tt + time
+
+        velx = (accx)*time
+        vely = (accy)*time
+
+    dist = round(dist, 2)
+    tt = round(tt, 1)
+
+    return dist, tt 
+```
 
   
 
