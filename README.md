@@ -99,14 +99,11 @@ crest due asap after report done(check current report fits requirement)
 ### Day 11 - 28/7
 
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
+- [ ] calculate error for data sets where steps were both counted and calulated
 - [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far) (properly write up bullet points so far)
 
 
 ### Day 10 - 25/7
-
-- [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far) (properly write up bullet points so far)
-
-  
 
 - finished styling the UI
 
@@ -117,6 +114,8 @@ crest due asap after report done(check current report fits requirement)
 - calculated percentage errors between old distance measurements and new ones
 
 - tested max run time and file size for the microbit
+
+- did more work on report
 
 ### Day 9 - 24/7
 - Aileen visiting in morning(11-12)
