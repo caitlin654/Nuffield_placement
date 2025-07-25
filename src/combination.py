@@ -85,8 +85,10 @@ def getInformation():
     # function that is called to print the output, and use the stride
     stride1 = stride.get()
     dist = (float(stride1) * steps)
+    speed = dist/tt
+    speed = round(speed,1)
     show_information.config(text="Distance: " + str(dist) + " meters in " + str(tt)
-                            + " seconds \n" + "Steps: " + str(steps))
+                            + " seconds \n" + "Steps: " + str(steps) + "\n"+ "Average Speed :" + str(speed) + " m/s")
 
 #set up the window
 window = tk.Tk()
@@ -96,23 +98,25 @@ window.geometry("500x350")
 frame = tk.Frame(bg="#c7e3c1")
 
 #set up the input within that window
-info_frame = tk.Frame(window, bg="white")
+info_frame = tk.Frame(window, bg="white" )
 info_frame.grid(row=1, column=1, columnspan=3, padx=100, pady=15)
 
 
-stride_label = tk.Label(info_frame, text="Enter Stride Length (m) ")
+stride_label = tk.Label(info_frame, text="Enter Stride Length (m) ", bg="white")
 stride_label.grid(row=0, column=0, padx=5, pady=5)
 
 stride = tk.Entry(info_frame)
 stride.grid(row=0, column=1, padx=5, pady=5)
 
 #add input button
-get_info = tk.Button(info_frame, text="Show output", command=getInformation)
+get_info = tk.Button(info_frame, text="Show output", command=getInformation, bg="white")
 get_info.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
 #output styling
 show_information = tk.Label(font='serif', bg="#c7e3c1", fg="#3b3e45")
 show_information.grid(row=2, column=2, pady=7, padx=10)
+
+
 
 #execution
 window.mainloop()
