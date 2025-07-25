@@ -105,6 +105,8 @@ crest due asap after report done(check current report fits requirement)
 
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
 
+  
+
 - [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far)
 
   
@@ -114,6 +116,8 @@ crest due asap after report done(check current report fits requirement)
 - added speed calculation
 
 - updated imgs with new output
+
+- calculated percentage errors between old distance measurements and new ones
 
 ### Day 9 - 24/7
 - Aileen visiting in morning(11-12)
@@ -128,7 +132,6 @@ crest due asap after report done(check current report fits requirement)
 def getdisplacement(readingx, readingy, readingz):
     disp = 0
     time = 0.1
-    t = 0
     magd = 0.0
     vel = 0.0
 
@@ -140,17 +143,13 @@ def getdisplacement(readingx, readingy, readingz):
         dispx = (vel * time) 
         disp = disp + dispx
 
-        t = t + time
-
     disp = round(disp, 2)
     disp = abs(disp)
-    t = round(t, 1)
-
+  
     return disp, t
 
 def distance(ay, ax, az):
     dist = 0
-    tt = 0
     xold = 0
     yold = 0
     velx = 0
@@ -166,15 +165,11 @@ def distance(ay, ax, az):
         changedist = ((changex)**2 + (changey)**2)**0.5
         dist = dist + changedist
 
-        tt = tt + time
-
         velx = (accx)*time
         vely = (accy)*time
 
     dist = round(dist, 2)
-    tt = round(tt, 1)
-
-    return dist, tt 
+    return dist
 ```
 
   
@@ -307,7 +302,7 @@ graphs and results for arm swing test - magnitude of acceleration is still very 
 (0.75)
 
 
-### Downstairs no arm swing
+### upstair no arm swing
 ![swing graphs](./imgs/downstair_noswing_graphs.png)     
 
 <img src="./imgs/upstairnoswing_results.png" width="250" height="175"> 
@@ -316,7 +311,7 @@ results from combination.py for climbing up stairs with no arm swing(0.75)
 
 
 
-### Upstairs no swing
+### down no swing
 ![swing graphs](./imgs/upstair_noswing_graphs.png) 
 
 <img src="./imgs/downstairnoswing_results.png" width="250" height="175"> 
