@@ -87,6 +87,7 @@ def getInformation():
     dist = (float(stride1) * steps)
     speed = dist/tt
     speed = round(speed,1)
+    dist = round(dist,1)
     show_information.config(text="Distance: " + str(dist) + " meters in " + str(tt)
                             + " seconds \n" + "Steps: " + str(steps) + "\n"+ "Average Speed :" + str(speed) + " m/s")
 
