@@ -58,12 +58,30 @@ for loops in range(0,len(x)):
 
 - [x] could calculate speed
 
+
+
+### REPORT attatchments needed
+- [ ] whatever graphs mentioned
+- [ ] new and old UI (use old when talking about displacment mistake and new when talking about steps counting and final results)
+- [x] microbit accelerometer diagram
+
+
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
-
 - [ ] finish Gantt chart
 
+### Sl7/report thigs to attach
 
+- [ ] report(with sl7 stuff at bottom)
+- [ ] gannt chart
+- [ ] self development plan
+- [ ] poster
+- [ ] readme
+
+ ### crest award things to attach
+- [ ] profile form
+- [ ] report(updated to requirement)
+- [ ] readme/ tidied to a log
 
 
 ## Project log
@@ -76,6 +94,8 @@ poster and report(+Sl7 stuff) due 31/8
 
 crest due asap after report done(check current report fits requirement)
 
+
+
 ### Day 11 - 28/7
 
 
@@ -83,19 +103,17 @@ crest due asap after report done(check current report fits requirement)
 
 ### Day 10 - 25/7
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests) 
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
 
 - [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far)
-
-- [ ] get new readings and outputs(add old data sets ones)
-
-- [ ] try and see if there's a way to increase distance accuracy
 
   
 
 - finished styling the UI
 
 - added speed calculation
+
+- updated imgs with new output
 
 ### Day 9 - 24/7
 - Aileen visiting in morning(11-12)
@@ -264,8 +282,8 @@ def distance(ay, ax, az):
 
 ### No arm swing
 ![no swing graphs](./imgs/no_swing_graphs.png)  
-<img src="./imgs/noswing_newresults.png" width="250" height="175">  
-
+<img src="./imgs/noswing_reults_3.png" width="250" height="175" > 
+<img src="./imgs/noswing_newresults.png" width="250" height="175">   
 
 
 graphs and results for no swing walk test - magnitude of acceleration is include, however due to no swing, it is the same as the y axis acceleration graph (0.75)
@@ -273,6 +291,7 @@ graphs and results for no swing walk test - magnitude of acceleration is include
 ### No arms swing 2
 ![no swing graphs](./imgs/noswing2_graphs.png)  
 <img src="./imgs/NOSWING2_RESULTS.png" width="250" height="175">  
+<img src="./imgs/NOSWING2_NEWRESULTS.png" width="250" height="175">  
 (0.75)
 
 
@@ -284,7 +303,7 @@ graphs and results for arm swing test - magnitude of acceleration is still very 
 
 ### Arm swing 2
 ![no swing graphs](./imgs/SWING2_GRAPHS.png)  
-<img src="./imgs/SWING2_RESULTS.png" width="250" height="175">  
+<img src="./imgs/SWING2_RESULTS.png" width="250" height="175"> 
 (0.75)
 
 
