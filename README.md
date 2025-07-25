@@ -52,9 +52,11 @@ for loops in range(0,len(x)):
 
 - [ ] can it see the difference between activities (like stairs/walking)(ask remote) 
 
-- [ ] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
+- [x] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
 - [ ] tell difference between people walking
+
+- [x] could calculate speed
 
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
@@ -74,14 +76,26 @@ poster and report(+Sl7 stuff) due 31/8
 
 crest due asap after report done(check current report fits requirement)
 
+### Day 11 - 28/7
+
+
+
+
 ### Day 10 - 25/7
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests)
-- [ ] update report with findings on swings/positions/ combination error and new distance calculation
-- [ ] read and organize new refs
+- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try more distance accuracy tests) 
+
+- [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far)
+
 - [ ] get new readings and outputs(add old data sets ones)
+
 - [ ] try and see if there's a way to increase distance accuracy
-- [ ] add a window kill to the tkinter and style input window
+
+  
+
+- finished styling the UI
+
+- added speed calculation
 
 ### Day 9 - 24/7
 - Aileen visiting in morning(11-12)
