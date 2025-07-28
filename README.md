@@ -95,20 +95,17 @@ poster and report(+Sl7 stuff) due 31/8
 crest due asap after report done(check current report fits requirement)
 
 
-
-### Day 11 - 28/7
-
-- [ ] get more data for stairs, longer walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
-
+### Day 12 - 29/7
+- [ ] get more data for stairs, longer walking(no swing)(count steps when taking to test for accuracy)
+- [ ] try to measure distance accuracy
 - [ ] calculate error for data sets where steps were both counted and calculated
   	- 44 vs 45
-  	- 
-  
-- [ ] add refs to report, format images and continue writing it up(discussion and results)(choose graph)
-
-  
+- [ ] finish report as of current and start poster
+### Day 11 - 28/7
 
 - got more no swing data, counted steps and checked accuracy
+
+- did more work on report
 
 
 ### Day 10 - 25/7
