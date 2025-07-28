@@ -98,7 +98,7 @@ crest due asap after report done(check current report fits requirement)
 
 ### Day 11 - 28/7
 
-- [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
+- [ ] get more data for stairs, longer walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
 
 - [ ] calculate error for data sets where steps were both counted and calculated
   	- 44 vs 45
