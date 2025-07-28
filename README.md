@@ -100,8 +100,11 @@ crest due asap after report done(check current report fits requirement)
 
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
 - [ ] calculate error for data sets where steps were both counted and calculated
+  	- 44 vs 45
+  	- 
 - [ ] add refs to report, format images and continue writing it up(get good graphs and results)
-- [ ] get nice set of no swing graphs for report and poster
+
+- got more no swing data, counted steps and checked accuracy
 
 
 ### Day 10 - 25/7
@@ -287,6 +290,10 @@ graphs and results for no swing walk test - magnitude of acceleration is include
 <img src="./imgs/NOSWING2_RESULTS.png" width="250" height="175">  
 <img src="./imgs/NOSWING2_NEWRESULTS.png" width="250" height="175">  
 (0.75)
+
+### no arm swing 3 
+![no swing graphs](./imgs/NOSWING3_GRAPHS.png)  
+<img src="./imgs/NOSWING3_RESULTS.png" width="250" height="175" >  (0.75)
 
 
 ### Arm swing graphs
