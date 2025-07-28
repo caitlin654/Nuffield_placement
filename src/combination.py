@@ -5,8 +5,8 @@ def readin():
     readingx = []
     readingy = []
     readingz = []
-    file_path = r'../data/test(45steps).csv'
-    # file_path = r'C:/Users/Summer School - 1/mu_code/test-straightline.csv'
+    #file_path = r'../data/test(45steps).csv'
+    file_path = r'C:/Users/Summer School - 1/mu_code/test.csv'
     entirefile = open(file_path, "r")
     linesarray = entirefile.read().splitlines()
     entirefile.close()
@@ -49,7 +49,7 @@ def countstep(max, mag):
     boo = []
     count = 0
     for loops in range(0, len(mag)):
-        if mag[loops] > (max * 0.55):  # number changes based on activity and placement
+        if mag[loops] > (max * 0.75):  # number changes based on activity and placement
             # if the mag is > than a % of the max then true
             boo.append("True")
         else:

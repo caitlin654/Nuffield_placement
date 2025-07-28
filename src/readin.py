@@ -3,11 +3,11 @@ import time
 
 time.sleep(1)#start warning sequence
 display.show(Image.HEART)
-time.sleep(2)
+time.sleep(5)
 display.clear()
 
 positions = []
-for loops in range(0, 250):
+for loops in range(0, 220):
     position = ""
     position = accelerometer.get_values()#obtain accelerometer values
     positions.append(position)#append to array
