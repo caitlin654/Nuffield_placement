@@ -99,8 +99,9 @@ crest due asap after report done(check current report fits requirement)
 ### Day 11 - 28/7
 
 - [ ] get more data for stairs, walking(no swing)(count steps when taking to test for accuracy)(try to measure distance) 
-- [ ] calculate error for data sets where steps were both counted and calulated
-- [ ] update report with findings on swings/positions/ combination error and new distance calculation(add any refs used so far) (properly write up bullet points so far)
+- [ ] calculate error for data sets where steps were both counted and calculated
+- [ ] add refs to report, format images and continue writing it up(get good graphs and results)
+- [ ] get nice set of no swing graphs for report and poster
 
 
 ### Day 10 - 25/7

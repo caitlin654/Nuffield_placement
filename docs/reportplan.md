@@ -53,6 +53,8 @@ Whatever the method, this section should be focused around describing how resear
  - explain step obtainment
  - include graphs(+annotated one), diagram of micro:bit accelerometer, 
 
+
+
 ## Results and Discussion
 
 In this section provide information about the results and what they mean. This can be presented in the form of charts, tables or graphs with accompanying explanatory text. If working with a large amount of numerical data, then it can be particularly helpful to think about different ways of presenting the results and perhaps including only some of the data rather than all of it.
