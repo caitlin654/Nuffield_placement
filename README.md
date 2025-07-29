@@ -64,6 +64,7 @@ for loops in range(0,len(x)):
 - [ ] whatever graphs mentioned
 - [ ] new and old UI (use old when talking about displacment mistake and new when talking about steps counting and final results)
 - [x] microbit accelerometer diagram
+- [ ] off load good spreadsheet(noswing ones and 70s ones)
 
 
 ## SL7 To Do
