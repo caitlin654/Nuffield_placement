@@ -49,7 +49,7 @@ def countstep(max, mag):
     boo = []
     count = 0
     for loops in range(0, len(mag)):
-        if mag[loops] > (max * 0.55):  # number changes based on activity and placement
+        if mag[loops] > (max * 0.70):  # number changes based on activity and placement
             # if the mag is > than a % of the max then true
             boo.append("True")
         else:
