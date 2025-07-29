@@ -106,7 +106,7 @@ offload anything needed to git(excel sheets)
 - [ ] finish report and add all final images
 - [ ] do poster
 - [ ] sort README
-- [ ] check all graphs are good + which ones need to be used and sent/atatched 
+- [ ] check all graphs are good + which ones need to be used and sent/attached 
 - [ ] start crest version of report
 - [ ] finish SL7 stuff
 
