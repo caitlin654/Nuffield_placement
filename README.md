@@ -64,6 +64,7 @@ for loops in range(0,len(x)):
 - [ ] whatever graphs mentioned
 - [ ] new and old UI (use old when talking about displacment mistake and new when talking about steps counting and final results)
 - [x] microbit accelerometer diagram
+- [ ] ask to get more graphs printed off for Glasgow thing
 - [ ] off load good spreadsheet(noswing ones and 70s ones)
 
 
@@ -87,28 +88,46 @@ for loops in range(0,len(x)):
 
 ## Project log
 
-end of last week - presentation
-
 someone said something about a blog?
 
 poster and report(+Sl7 stuff) due 31/8
 
 crest due asap after report done(check current report fits requirement)
 
+offload anything needed to git(excel sheets)
+
+### Day 15 - 1/8
+- [ ] export any final versions and excel sheets to git
+- [ ] sort what is being sent where
+- [ ] make crest version of report
+- [ ] compile SL7 stuff
+
+### Day 14 - 31/7
+- [ ] finish report and add all final images
+- [ ] do poster
+- [ ] sort README
+- [ ] check all graphs are good + which ones need to be used and sent/atatched 
+- [ ] start crest version of report
+- [ ] finish SL7 stuff
+
 ### Day 13 - 30/7
 - [ ] try get running, other people 
 - [ ] measure distance accuracy
+- [ ] do more long time tests(good for seeing turns)(continue to count steps when doing it)
+- [ ] get more data for stairs
+- [ ] process and sort all data collected, decide what stuff is being put where(report, poster,board)
+- [ ] get dad to do SL7 stuff
 ### Day 12 - 29/7
-- [ ] get more data for stairs, longer walking(no swing)(count steps when taking to test for accuracy)
-- [ ] calculate error for data sets where steps were both counted and calculated
-  	- 44 vs 45
-- [ ] finish report as of current and start poster
+- [ ]  start poster
 - did more report
+- tested step counting accuracy over longer periods of time
+  - 44 vs 45
+  - 135 vs 133 (55%)
+
 
 ### Day 11 - 28/7
 
 - got more no swing data, counted steps and checked accuracy
-
 - did more work on report
 
 
