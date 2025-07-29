@@ -104,25 +104,22 @@ offload anything needed to git(excel sheets)
 
 ### Day 14 - 31/7
 - [ ] finish report and add all final images
-- [ ] do poster
-- [ ] sort README
+- [ ] finish poster(see notes)
+- [ ] sort README(add longer time graphs)
 - [ ] check all graphs are good + which ones need to be used and sent/attached 
 - [ ] start crest version of report
 - [ ] finish SL7 stuff
 
 ### Day 13 - 30/7
-- [ ] try get running, other people 
+- [ ] get running, other people, stairs, longer walks(continue to count steps when doing these)
 - [ ] measure distance accuracy
-- [ ] do more long time tests(good for seeing turns)(continue to count steps when doing it)
-- [ ] get more data for stairs
 - [ ] process and sort all data collected, decide what stuff is being put where(report, poster,board)
 - [ ] get dad to do SL7 stuff
 ### Day 12 - 29/7
-- [ ]  start poster
+- started poster 
+
 - did more report
-- tested step counting accuracy over longer periods of time
-  - 44 vs 45
-  - 135 vs 133 (55%)
+- tested step counting accuracy over longer periods of time(2-5% error)
 
 
 ### Day 11 - 28/7
