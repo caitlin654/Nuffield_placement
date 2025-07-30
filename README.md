@@ -111,9 +111,11 @@ offload anything needed to git(excel sheets)
 - [ ] finish SL7 stuff
 
 ### Day 13 - 30/7
-- [ ] other people, stairs, longer walks(continue to count steps when doing these)
+- [ ] stairs, longer walks(continue to count steps when doing these)
 
 - [ ] get dad to do SL7 stuff
+
+- [ ] GET GRAPHS ON TRH BIGSCREEN AND TAKE SCREENSHOTS TO PUT INTO REPORT
 
 - proofread and continued report
 - tested microbit on diffrent users and activities and made graphs from data
