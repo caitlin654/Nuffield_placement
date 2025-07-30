@@ -1,0 +1,5 @@
+# These are file types to ignore and not to add to your git repository.
+# These files are produced by macs
+.DS_Store
+# This type are Microsoft backup files.
+\~*
