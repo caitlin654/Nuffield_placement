@@ -7,7 +7,7 @@ time.sleep(5)
 display.clear()
 
 positions = []
-for loops in range(0, 700):
+for loops in range(0, 100):
     position = ""
     position = accelerometer.get_values()#obtain accelerometer values
     positions.append(position)#append to array
