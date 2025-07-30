@@ -105,6 +105,7 @@ offload anything needed to git(excel sheets)
 ### Day 14 - 31/7
 - [ ] finish report and add all final images
 - [ ] finish poster(see notes)
+- [ ] stairs, longer walks(continue to count steps when doing these)
 - [ ] sort README(add longer time graphs)
 - [ ] check all graphs are good + which ones need to be used and sent/attached 
 - [ ] start crest version of report
@@ -112,13 +113,10 @@ offload anything needed to git(excel sheets)
 
 ### Day 13 - 30/7
 - [ ] stairs, longer walks(continue to count steps when doing these)
-
 - [ ] get dad to do SL7 stuff
-
-- [ ] GET GRAPHS ON TRH BIGSCREEN AND TAKE SCREENSHOTS TO PUT INTO REPORT
-
 - proofread and continued report
-- tested microbit on diffrent users and activities and made graphs from data
+- tested microbit on different users and activities and made graphs from data
+- added different users and activities graphs into report 
 
 ### Day 12 - 29/7
 - started poster 
