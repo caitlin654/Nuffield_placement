@@ -111,11 +111,12 @@ offload anything needed to git(excel sheets)
 - [ ] finish SL7 stuff
 
 ### Day 13 - 30/7
-- [ ] get running, other people, stairs, longer walks(continue to count steps when doing these)
-- [ ] measure distance accuracy
-- [ ] process and sort all data collected, decide what stuff is being put where(report, poster,board)
+- [ ] other people, stairs, longer walks(continue to count steps when doing these)
+
 - [ ] get dad to do SL7 stuff
+
 - proofread and continued report
+- tested microbit on diffrent users and activities and made graphs from data
 
 ### Day 12 - 29/7
 - started poster 
