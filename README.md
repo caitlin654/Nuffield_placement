@@ -115,6 +115,8 @@ offload anything needed to git(excel sheets)
 - [ ] measure distance accuracy
 - [ ] process and sort all data collected, decide what stuff is being put where(report, poster,board)
 - [ ] get dad to do SL7 stuff
+- proofread and continued report
+
 ### Day 12 - 29/7
 - started poster 
 
