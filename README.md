@@ -98,7 +98,9 @@ for loops in range(0,len(x)):
 - [ ] get longer time graphs, add to images
 - [ ] make repos of stuff to share
 
+- [ ] update reports with comments(pull)
 
+  
 
 - updated report with user and activity graphs 
 - finished report
