@@ -104,8 +104,6 @@ offload anything needed to git(excel sheets)
 - [ ] compile SL7 stuff
 
 ### Day 14 - 31/7
-- [ ] finish report and add all final images
-
 - [ ] finish poster(see notes)
 
 - [ ] check all graphs are good + which ones need to be used and sent/attached 
@@ -118,6 +116,11 @@ offload anything needed to git(excel sheets)
 
 - [ ] stairs, longer walks(continue to count steps when doing these)
 - [ ] sort README(add longer time graphs)
+
+
+
+- updated report with user and activity graphs 
+- finished report
 
 ### Day 13 - 30/7
 - proofread and continued report
