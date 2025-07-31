@@ -50,25 +50,15 @@ for loops in range(0,len(x)):
     dist = dist + changedist
 ```
 
-- [ ] can it see the difference between activities (like stairs/walking)(ask remote) 
+- [x] can it see the difference between activities (like stairs/walking)(ask remote) 
 
 - [x] differences in accuracy of data depending on positions of accelerometer on the body(belt/holding(swing/no swing)/leg) 
 
-- [ ] tell difference between people walking
+- [x] tell difference between people walking
 
 - [x] could calculate speed
 
-
-
-### REPORT attatchments needed
-- [ ] ask to get more graphs printed off for Glasgow thing (long time ones)
-- [ ] off load good spreadsheet(noswing3 and 1, downstairs, all users(mum2), )
-
-
-## SL7 To Do
-- [ ] complete outcome 3
-
-- [ ] get dad to do SL7 stuff
+---
 
 ### Sl7/report thigs to attach
 
@@ -78,33 +68,35 @@ for loops in range(0,len(x)):
 - [ ] readme
 - [ ] longer time graphs for Glasgow
 
- ### crest award things to attach
+ ### Crest award things to attach
 - [ ] profile form
+
 - [ ] report(crest version)
+
 - [ ] readme/ tidied to a log
+
+---
+
 
 
 ## Project log
-
-someone said something about a blog?
-
-poster and report(+Sl7 stuff) due 31/8
-
-crest due asap after report done(check current report fits requirement)
-
-offload anything needed to git(excel sheets)
 
 ### Day 15 - 1/8
 - [ ] export any final versions and excel sheets to git
 
 - [ ] sort what is being sent where
 
+- [ ] blog?
+
+- [ ] off load good spreadsheet(noswing3 and 1, downstairs, all users(mum2), )
+
   
 
 ### Day 14 - 31/7
 - [ ] finish poster(see notes)
 - [ ] finish SL7 outcome 3
-- [ ] sort README(add longer time graphs)
+- [ ] get longer time graphs, add to images
+- [ ] make repos of stuff to share
 
 
 
@@ -298,6 +290,8 @@ def distance(ay, ax, az):
 - got data for multiple loops
 - put info into arrays and print arrays
 - got info in all three axis
+
+---
 
 ## Images
 
