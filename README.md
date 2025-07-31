@@ -73,14 +73,14 @@ for loops in range(0,len(x)):
 ### Sl7/report thigs to attach
 
 - [ ] self development plan
-- [ ] report
+- [ ] report(sl7 version)
 - [ ] poster
 - [ ] readme
-- [ ] longer time graphs for glasgow
+- [ ] longer time graphs for Glasgow
 
  ### crest award things to attach
 - [ ] profile form
-- [ ] report(updated to requirement)
+- [ ] report(crest version)
 - [ ] readme/ tidied to a log
 
 
@@ -99,10 +99,6 @@ offload anything needed to git(excel sheets)
 
 - [ ] sort what is being sent where
 
-- [ ] make crest version of report
-
-- [ ] rename report
-
   
 
 ### Day 14 - 31/7
@@ -115,6 +111,7 @@ offload anything needed to git(excel sheets)
 - updated report with user and activity graphs 
 - finished report
 - complied report, timeline and SL7 stuff
+- made crest version of report, and completed profile form
 
 ### Day 13 - 30/7
 - proofread and continued report
