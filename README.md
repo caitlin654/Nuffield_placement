@@ -88,19 +88,15 @@ for loops in range(0,len(x)):
 
 - [ ] blog?
 
-- [ ] update final report
+- [ ] update final report (changed crest version to most recent, then share it along )
+
+- [ ] finish SL7 outcome 3
+
+- [ ] try finish poster
 
   
 
 ### Day 14 - 31/7
-- [ ] finish poster(see notes)
-
-- [ ] finish SL7 outcome 3
-
-- [ ] update reports with comments(pull)
-
-  
-
 - updated report with user and activity graphs 
 
 - finished report
@@ -112,6 +108,8 @@ for loops in range(0,len(x)):
 - updated 70s test graphs and added to readme
 
 - added all excel sheet to git
+
+- finished poster first draft
 
 ### Day 13 - 30/7
 - proofread and continued report
