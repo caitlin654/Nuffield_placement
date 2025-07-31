@@ -66,9 +66,7 @@ for loops in range(0,len(x)):
 
 
 ## SL7 To Do
-- [ ] complete outcome 3 & 6
-
-  
+- [ ] complete outcome 3
 
 - [ ] get dad to do SL7 stuff
 
@@ -78,6 +76,7 @@ for loops in range(0,len(x)):
 - [ ] report
 - [ ] poster
 - [ ] readme
+- [ ] longer time graphs for glasgow
 
  ### crest award things to attach
 - [ ] profile form
@@ -108,9 +107,7 @@ offload anything needed to git(excel sheets)
 
 ### Day 14 - 31/7
 - [ ] finish poster(see notes)
-- [ ] finish SL7 stuff
-
-- [ ] stairs, longer walks(continue to count steps when doing these)
+- [ ] finish SL7 outcome 3
 - [ ] sort README(add longer time graphs)
 
 
