@@ -66,14 +66,14 @@ for loops in range(0,len(x)):
 - [ ] report(sl7 version)
 - [ ] poster
 - [ ] readme
-- [ ] longer time graphs for Glasgow
+- [ ] longer time graphs for Glasgow (test701_graphs.png)
 
  ### Crest award things to attach
 - [ ] profile form
 
 - [ ] report(crest version)
 
-- [ ] readme/ tidied to a log
+- [ ] readme
 
 ---
 
@@ -84,28 +84,34 @@ for loops in range(0,len(x)):
 ### Day 15 - 1/8
 - [ ] export any final versions and excel sheets to git
 
-- [ ] sort what is being sent where
+- [ ] sort what is being sent where, make repos of stuff to share
 
 - [ ] blog?
 
-- [ ] off load good spreadsheet(noswing3 and 1, downstairs, all users(mum2), )
+- [ ] update final report
 
   
 
 ### Day 14 - 31/7
 - [ ] finish poster(see notes)
+
 - [ ] finish SL7 outcome 3
-- [ ] get longer time graphs, add to images
-- [ ] make repos of stuff to share
 
 - [ ] update reports with comments(pull)
 
   
 
 - updated report with user and activity graphs 
+
 - finished report
+
 - complied report, timeline and SL7 stuff
+
 - made crest version of report, and completed profile form
+
+- updated 70s test graphs and added to readme
+
+- added all excel sheet to git
 
 ### Day 13 - 30/7
 - proofread and continued report
@@ -353,3 +359,14 @@ results from combination.py for climbing down stairs with no arm swing (0.6)
 ![no swing graphs](./imgs/frontpocket_graphs.png)  
 <img src="./imgs/front_results.png" width="250" height="175">  
 (0.55)
+
+
+
+### 70 second test
+![no swing graphs](./imgs/test701_graphs.png)  
+(0.7, but has acidental max deleted)
+### 70 second test 2
+![no swing graphs](./imgs/TEST702_GRAPHS.png)  
+<img src="./imgs/test702.png" width="250" height="175">   
+(0.7)
+
