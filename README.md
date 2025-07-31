@@ -32,7 +32,7 @@
 
 - [x] see what positioning of pedometer are best, especially with calculating displacement(**seems like logo needs to be up for displacement to be positive**, **no arm swing also seems to give better results**) 
 
-- [ ] try to find out how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**  *attribute error*  
+- [x] how to increase range of micro:bit to prevent data loss(current max is 2040mg)  **code below doesn't work**  *attribute error*  
   
     ```python
     input.set_accelerometer_range(
@@ -90,9 +90,9 @@ for loops in range(0,len(x)):
 
 - [ ] update final report (changed crest version to most recent, then share it along )
 
-- [ ] finish SL7 outcome 3
+- [ ] finish SL7 outcome 3(mentor details)
 
-- [ ] try finish poster
+- [ ] finish poster
 
   
 
