@@ -71,6 +71,7 @@ for loops in range(0,len(x)):
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
 - [ ] finish Gantt chart
+- [ ] get dad to do SL7 stuff
 
 ### Sl7/report thigs to attach
 
@@ -104,15 +105,21 @@ offload anything needed to git(excel sheets)
 
 ### Day 14 - 31/7
 - [ ] finish report and add all final images
+
 - [ ] finish poster(see notes)
-- [ ] stairs, longer walks(continue to count steps when doing these)
-- [ ] sort README(add longer time graphs)
+
 - [ ] check all graphs are good + which ones need to be used and sent/attached 
-- [ ] start crest version of report
+
 - [ ] finish SL7 stuff
 
+- [ ] sort figure numbers and refs
+
+  
+
+- [ ] stairs, longer walks(continue to count steps when doing these)
+- [ ] sort README(add longer time graphs)
+
 ### Day 13 - 30/7
-- [ ] get dad to do SL7 stuff
 - proofread and continued report
 - tested microbit on different users and activities and made graphs from data
 - added different users and activities graphs into report 
