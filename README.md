@@ -61,23 +61,21 @@ for loops in range(0,len(x)):
 
 
 ### REPORT attatchments needed
-- [ ] whatever graphs mentioned
-- [ ] new and old UI (use old when talking about displacment mistake and new when talking about steps counting and final results)
-- [x] microbit accelerometer diagram
-- [ ] ask to get more graphs printed off for Glasgow thing
-- [ ] off load good spreadsheet(noswing ones and 70s ones)
+- [ ] ask to get more graphs printed off for Glasgow thing (long time ones)
+- [ ] off load good spreadsheet(noswing3 and 1, downstairs, all users(mum2), )
 
 
 ## SL7 To Do
 - [ ] complete outcome 3 & 6
-- [ ] finish Gantt chart
+
+  
+
 - [ ] get dad to do SL7 stuff
 
 ### Sl7/report thigs to attach
 
-- [ ] report(with sl7 stuff at bottom)
-- [ ] gannt chart
 - [ ] self development plan
+- [ ] report
 - [ ] poster
 - [ ] readme
 
@@ -99,20 +97,18 @@ offload anything needed to git(excel sheets)
 
 ### Day 15 - 1/8
 - [ ] export any final versions and excel sheets to git
+
 - [ ] sort what is being sent where
+
 - [ ] make crest version of report
-- [ ] compile SL7 stuff
+
+- [ ] rename report
+
+  
 
 ### Day 14 - 31/7
 - [ ] finish poster(see notes)
-
-- [ ] check all graphs are good + which ones need to be used and sent/attached 
-
 - [ ] finish SL7 stuff
-
-- [ ] sort figure numbers and refs
-
-  
 
 - [ ] stairs, longer walks(continue to count steps when doing these)
 - [ ] sort README(add longer time graphs)
@@ -121,6 +117,7 @@ offload anything needed to git(excel sheets)
 
 - updated report with user and activity graphs 
 - finished report
+- complied report, timeline and SL7 stuff
 
 ### Day 13 - 30/7
 - proofread and continued report
