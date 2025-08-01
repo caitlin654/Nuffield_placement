@@ -63,7 +63,7 @@ for loops in range(0,len(x)):
 ### Sl7/report thigs to attach
 
 - [ ] self development plan
-- [ ] report(sl7 version)
+- [ ] report(sl7 version) **finish evaluations** 
 - [ ] poster
 - [ ] readme
 - [ ] longer time graphs for Glasgow (test701_graphs.png)
@@ -72,6 +72,8 @@ for loops in range(0,len(x)):
 - [ ] profile form
 
 - [ ] report(crest version)
+
+- [ ] poster?
 
 - [ ] readme
 
@@ -83,13 +85,17 @@ for loops in range(0,len(x)):
 
 ### Day 15 - 1/8
 - [ ] export any final versions and excel sheets to git
+
 - [ ] blog?
+
 - [ ] ask for leadership evaluations 
-- [ ] finish poster
-- [ ] sort what is being sent where, make repos of stuff to share
-- [ ] update final report (changed crest version to most recent, then share it along )
+
+- [x] update final report (changed crest version to most recent, then share it along )
+
+  
 
 - finished sl7 stuff
+- finished first draft of poster
 
 ### Day 14 - 31/7
 - updated report with user and activity graphs 
