@@ -83,18 +83,13 @@ for loops in range(0,len(x)):
 
 ### Day 15 - 1/8
 - [ ] export any final versions and excel sheets to git
-
-- [ ] sort what is being sent where, make repos of stuff to share
-
 - [ ] blog?
-
+- [ ] ask for leadership evaluations 
+- [ ] finish poster
+- [ ] sort what is being sent where, make repos of stuff to share
 - [ ] update final report (changed crest version to most recent, then share it along )
 
-- [ ] finish SL7 outcome 3(mentor details)
-
-- [ ] finish poster
-
-  
+- finished sl7 stuff
 
 ### Day 14 - 31/7
 - updated report with user and activity graphs 
