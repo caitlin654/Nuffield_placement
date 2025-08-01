@@ -84,15 +84,9 @@ for loops in range(0,len(x)):
 ## Project log
 
 ### Day 15 - 1/8
+- [ ] ask for leadership evaluations
 - [ ] export any final versions and excel sheets to git
-
-- [ ] blog?
-
-- [ ] ask for leadership evaluations 
-
-- [x] update final report (changed crest version to most recent, then share it along )
-
-  
+- [ ] update final report (changed crest version to most recent, then share it along )
 
 - finished sl7 stuff
 - finished first draft of poster
